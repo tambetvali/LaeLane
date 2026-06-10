@@ -11,5 +11,5 @@ Websites.md will contain any results made by an AI.
 
 Spireason.md will contain any content pages added to Spireason's website: possibly, a simplistic Javascript version with my own code files will be reflection there.
 
-Time Estimation: Coming Soon, and not beyond my limits.
+Time Estimation: ***Coming Soon***, and not beyond my limits.
 - If you think you need to wait: Don't Talk, Open Source - in Estonian we say who wants water, has legs.
