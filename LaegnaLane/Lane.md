@@ -84,3 +84,126 @@ Let's see an example number:
  
 Allow user to generate json files for all numbers, and for each number regarding to it's simulated, special properties such as line structure, fractal, it's special points and anything to consider by AI; add very simple Laegna and Latin line coordinate data to main json file. So integrate database views and the simulation, so that it can run through frame data generator - frame data needs to be in coherent format, exportable in json, and sid/id coupling is good basis for animation, chapter, end-to-beginning rotation or any possible extensions by you.
 
+## Simulator: Lane Base Octaves
+
+Terms of "####" titles are needed to apply various texts in Laegna, SpiReason, and it's theory-neoclassic-scientific-parallel coverage.
+
+X - from left to right; Y - from bottom to top. Square field is needed, and boundaries such as signed and unsigned zeroes and infinities are to be marked - not by special squares, but by marking extremes and center Y with thin, sub-square line and having enough space for that line somehow (*all* the square should be smaller to not break their symmetry, or their important content positioned at center).
+
+#### T" (T prim / T projection): Lane Octave 0 / "Oct Lat." finite / material / yin basis
+
+Code: Oct 0 Lat / "Octave 0 Latin".
+
+###### Digits => X position on square field
+
+Constant, only one choice:
+- X = 1
+
+Digit 1, two choices:
+- X = 2; if only digit means R=1
+
+Digit 2, four choices:
+- X = 3; if last digit means R=1.5
+
+Digit 3, eight choices:
+- X = 4; if last digit means R=2
+
+X goes by exponent, R is linear, growing by 1, and last digit rule is constant and repeats for each digit and R. So you can follow patterns and branches expansive-linear-constant (Y-X-Z contextually) algorithms.
+
+Hilberts internal and external spaces, either in both signs for signed or unidirectionally for unsigned, should fit here well.
+
+This line structure brances to all possibilities if digits at end are missing, for all missing digits and is recursive from R, just as the other representation in it's curved space - it shows all the number potentials if no digits are there, and use colors and hues to separate them.
+
+Uncertanty is visible as line gets bolder as it grows.
+
+#### R" (R prim / R projection): Lane Octave 1 / "Oct Lae." infinite / spiritual / yang basis
+
+Code: Oct 1 Lae / "Octave 1 Laegna".
+
+###### Digits => X position on square field
+
+Constant, only one choice:
+- X = 1
+
+Digit 1, two choices (try to have all available formats for each distance separately, for example R=2, 4 etc. has Base-2, Base-4 and Base-16, while R=1, 2 etc. has Base-2 and Base-4, and every R has base 2 - a Z, X, Y fractal in one additional sense of the letters you should somehow hint playfully but not wasting space and visibility):
+- X = 2; if only digit means R=1
+
+Y=1 means first letter is O.
+Y=2 means first letter is A.
+Letters O and A should be there.
+
+Digit 2, four choices:
+- X = 4; if last digit means R=1.5
+
+Y=1, 3 means first letter is O.
+Y=2, 4 means first letter is A.
+This means two groups: all previous letters are used, in their number value, to decide the group (for base-2, each group has two members O and A, so that OAOA.. is repeated from down to up, until reaching Y=X, Y filled from 1 to X, so Y here is 1, 2, 3, 4 because X is 4. Internal fractal projection has it at pixels of X=internal 4, as it repeats the outer factal and some color hues might exist (illustrate many relations and points, each trivial ones at least and what fits or could be optional and dynamic).
+
+Enable Zoom: Keep X=0, Y=0 as static anchor so pan is impossible and anchor is kept for each zoom: this for both interactions. Use their relative, exponent-difference zoom ratios to align them, and show squares at outer fractal, but squares over some items (for multi-pixel, for example, while it's 16 * 16 pixels if enough digits is given, there could be 4*4 inner table and line, interpolated and perfect, above it as central element - glowing on hover, doing different tricks, perhaps smoothly turning when number changes, with shadow already at it's future position after milliseconds, like clock but with no uninformed waiting over 200ms perhaps, or what you know of psychology).
+
+So this one is:
+A E: Group A of base-2 prev digit len., currently len 2-1 is just 1, so two groups, only group for base-4 as all 4.
+O A: Group A of prev digit len.
+A O: Group O.
+O I: Group O.
+
+Primary highlight: selected exact cell is very much highlighted.
+Secondary highlight: it's group is highlighted by one property.
+Tertiary highlight: the same final digit in each group is somewhat highlighted by least visible property, but still creating patterns.
+
+Digit 3, eight choices:
+- X = 8; if last digit means R=2
+
+A: Group AA
+O: Group AA
+A: Group AO
+O: Group AO
+A: Group OA
+O: Group OA
+A: Group OO
+O: Group OO from digit 2
+
+For each base, whole length of it's base of current digit is repeated as many times as number made of all existing digits.
+
+X goes by exponent, R is linear, growing by 1, and last digit rule is constant and repeats for each digit and R. So you can follow patterns and branches of linearized, Laegna system.
+
+As you can see, exponent function needs to be applied, altough *linearization* of this and steps are based on original, Laegna numbers which grow linearly: thus, this function is not internally linear in Laegna math, but projection (" - prim) of Laegna number, and all mathematics is based on Laegna number: even every part of calculating this latin number and drawing points.
+
+Each number, when selected, is represented by left and right extremes of given slice of this function, where signed numbers have O//-1=-1:0 and A//1=0:1 slice (// - or), other numbers precede and follow as 1-length slices, on each R, and unsigned numbers have I, 1, slice as 0:1.
+
+This curve brances to all possibilities if digits at end are missing - it shows all the number potentials if no digits are there, and use colors and hues to separate them.
+
+Uncertanty is visible as line gets bolder as it grows.
+
+#### Line interpolation
+
+Laegna and Latin octave should be:
+- Distorted: X is two times bigger than Y, affine translation turns squares to rectangles to contain several letters, encodings etc.
+- Thus, both in square area with some padding (thus a little bit recangulous if spacing is seen as taking width), Latin below in blue-like colors (matter, yin, inside view, earth or root - through all systems we support) and Laegna, the central system, above in red-like colors (spirit, yang, class-based infinity-symmetric view, heaven or crown).
+
+Optionally, user must be able to turn them to two square simulations, and this must be a tab, otherwise not changing parameters, but changing all the layout - but 1:2 "perspective" is default view, affine translation of X=>X*2 and Y=>Y, to achieve 1:2 symmetry landscape orientation: this is simulation view and user should be able to open both separately in full screen, in exact screen proportions of X and Y, while they still have some buttons including close full screen, so the simulation must be completely visible and I suggest top-left area might be empty (calculate, prove).
+
+Latin octave has it's simplest linear transformation interpolated into nice line, using 2D or 3D engine.
+
+Laegna octave:
+- Square field size is repeated two times:
+  - Inside (R), like 1\*1 or 2\*2 pixel area of line point which is later stretched in line coordinates, but still remains line and not stretched in widths and heights to non-symmetries, form a small square field repetition of the whole system. This makes line smooth - it *really and exactly passes the squares*.
+  - Stright line uses smallest number of steps, 9 NN where each N has cost 1, this is basis for cost and distance in regards of calculating shortest path for lines - Laegna straight and latin curve. This inner fractal makes the line smooth, and smoothenizer can continue the fractal up and down to understand properties of line and it's mathematical interpolation. Try to make it sound somehow.
+  - These squares are also connected to same smallest distance - diagonal, horizontal or vertical nearest neighbours are distance cost 1, while going up by one and left to one would be cost 2 and thus not linear in this sense of using it as distance function. Find the mathematical distance function and it's fractal pattern - two steps are given here, T=>R (smaller=>larger), but Z=>X=>Y could be used for three steps, and at least explain that.
+ 
+Graph where base unit is inner circle and each time it's edge length is doubled, new base-2 bit and each time it multiplied by 4, base-4 digit is added: recursively, one can see how straight line appears through all of them, along with it's negative polarity and arrow end like compass.
+
+In addition to linear animation mode and calculator mode (user uses various panels to change it, especially they can enter 0 to 4 binary, 0 to 2 base-4 and 0 to 1 base-16 laegna digits, and each conversion is carried out automatically as possible and needed), various like 10 effects should be usable to simulate various material, spiritual and scientific or practical things, or mathematical as this is the metadomain and whole purpose of it.
+
+Whole point: prove that line through those systems is always linear, and remapping digits means higher and lower spaces, and create pages for Hilbert for it's relation to higher and higher spaces and projections, having *simple representation of digits-wise or approx. continuous, mathematical, spiritual and automatable scales. Let's say Z is spiritual / fundamental, minimize loss material logic of most deductive type where we just remove our own intent of creating obstacles to ourselves, with heavy intent, X is automatic, stable, causal logic / human and Y is mathematical / growing and approximating, goal-based logic of maximizing gain. This Z, X, Y is use of standard digit to number the aspects we need to cover, and each page should be available in each mode, with central simulations but different explanations or tables / forms filled in different ways for comparison - both should exist. Each 3 modes is designed very differently.
+
+-----------------------
+
+This is meant to illustrate:
+- https://spireason.neocities.org/#sheep - sheep counter.
+- https://spireason.neocities.org/#infinity, where currently "🌈🚦 Laegna Infinity Drive" link exists - this will belong to you, use similar icons but reinvent the name, altough it's not changed there because it's paradigmatic and related to home page.
+- https://spireason.neocities.org/#handheldcal - central calculator page, but you won't be added there because you are a complex calculator.
+
+Perfect, gain and avoid loss now and be stable, designed, full of graphics, interactions, simulations and over all this: Flow, Zen, Tao, Viking spirit and Math height, and decent game theory of repeated games could tell you what this fractal branching means!
+
+If you can, you can create larger variants, more structured fractals - but 2 and 3 level fractals are special interest, so others must be available with special setting or page / mod.
