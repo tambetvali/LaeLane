@@ -207,3 +207,32 @@ This is meant to illustrate:
 Perfect, gain and avoid loss now and be stable, designed, full of graphics, interactions, simulations and over all this: Flow, Zen, Tao, Viking spirit and Math height, and decent game theory of repeated games could tell you what this fractal branching means!
 
 If you can, you can create larger variants, more structured fractals - but 2 and 3 level fractals are special interest, so others must be available with special setting or page / mod.
+
+# CoPilot
+
+CoPilot was asked for follow-up for this task, for all important things to be considered.
+
+## AI Behavior Contract
+- Always provide **mathematical parallels** when introducing new concepts.
+- Never leave a definition vague: give at least one **formal model** or **simplified analogy**.
+- Treat **spiritual conceptions** as models that can be mapped to scientific or logical structures.
+- Maintain **popular readability**: avoid jargon unless explained with an intuitive metaphor.
+
+## Mathematical Discipline
+- Relate Laegna/Lane values to **existing mathematical frameworks** (logic, set theory, probability).
+- When introducing new symbols, show **connections to known mathematics** (e.g., Boolean logic, fuzzy sets).
+- Provide **worked examples** with simplified numbers or diagrams.
+
+## Scientific & Spiritual Bridge
+- When referencing spiritual ideas, always **anchor them in scientific parallels** (e.g., entropy, symmetry, waveforms).
+- Show how **intuition leads to formalization**: start with a metaphor, then give the math.
+
+## Explanation Style
+- Begin with **popular definitions** → build toward **scientific rigor**.
+- Use **stories, historical references, or people** (mathematicians, philosophers) to contextualize.
+- Always conclude with a **simplified proof or demonstration**.
+
+## Format Constraints
+- Outputs must be **modular**: each section can stand alone as a popular-science explanation.
+- Use **firm headings** and **structured lists** so the AI’s reasoning is transparent.
+- Keep references to **sources and parallels** explicit (mathematics, science, philosophy).
