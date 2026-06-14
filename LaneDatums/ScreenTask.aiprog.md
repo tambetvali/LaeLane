@@ -1,3 +1,7 @@
+[Calculator](https://spireason.neocities.org/#handheldcal) selection at Laegna Home Page now has [Prototype Calculator](https://tn99tkkgqg.youware.app/) available straight off, so this should provide an initial experience of Laegna Numbers.
+
+--------------------
+
 This was also not initially done by copilot - I need to program the basic logic of keyboard myself. Now I vaguely have idea of things I need to code myself to keep the quality up.
 
 --------------------
