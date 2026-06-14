@@ -1,3 +1,7 @@
+This was also not initially done by copilot - I need to program the basic logic of keyboard myself. Now I vaguely have idea of things I need to code myself to keep the quality up.
+
+--------------------
+
 Use spireason.neocities.org as we create a widget to be positioned at https://spireason.neocities.org/#handheldcal, initially, so that everybody can copy the code.
 
 It is thin by height, but 100% in width:
