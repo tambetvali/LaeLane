@@ -1,4 +1,4 @@
-[Calculator](https://spireason.neocities.org/#handheldcal) selection at Laegna Home Page now has [Prototype Calculator](https://tn99tkkgqg.youware.app/) available straight off, so this should provide an initial experience of Laegna Numbers.
+[Calculator](https://spireason.neocities.org/#handheldcal) selection at Laegna Home Page now has [Prototype Calculator](https://tn99tkkgqg.youware.app/) available straight off, so this should provide an initial experience of Laegna Numbers. Purpose of this is to understand, how laegna number systems directly and trivially map one another - this is kind of parallel thinking and makes it usable to switch dimensionality, reducing or specifying it.
 
 --------------------
 
