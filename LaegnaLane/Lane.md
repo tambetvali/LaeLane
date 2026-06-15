@@ -236,3 +236,119 @@ CoPilot was asked for follow-up for this task, for all important things to be co
 - Outputs must be **modular**: each section can stand alone as a popular-science explanation.
 - Use **firm headings** and **structured lists** so the AI’s reasoning is transparent.
 - Keep references to **sources and parallels** explicit (mathematics, science, philosophy).
+
+# Missing links
+
+The task was referred with missing links, and here is task for one intermeditate system for an AI:
+
+Hello!
+
+
+
+The App we are going to compose is kind of complex, and you need to take care of mathematical libraries and robust interface.
+
+
+
+https://github.com/tambetvali/LaeLane/blob/main/LaegnaLane/Lane.md - this explains Lane in Laegna native system, which is basically considering it from viewpoint similar to integration level 1: Laegna math makes every mixed linear-exponent system into square based system, where on range 0-2 of the digit, linear function is applied, but from 2-4, it's continued by exponent, so it becomes *outwards linear* in terms of Laegna. Finally, of this external value, only infinitesimal is used - then, the numbers map exactly to Hilbert's math of internal and external angles, where 0-2 map to 0-360 degrees, and 2-4 map to 360 to 720 degrees, where they symbolize that if this infinitesimal is repeated infinitely, and it's a very short infinitesimal step to angle in space where projection is zoomed out by infinity and topogy changes - circle exactly so big that it's edge is just straight, and this property and topological break means it's radius is infinity, is seen as point at this distance; between every two points of this scale, roughly the whole projection of lower scale exists (this is approximation, because where and how is math). I think in Hilbert math 0-180 for internal and 180-360 degrees for external space is better.
+
+
+
+You need to do this: as function progresses, *more angles appear*, and in Lane after each exponent level of 2, angles are doubled and thus, new boolean character will take two angles inside current section - more and more digits makes it more and more precise, but the *size* of outmost angle is one square. This uses Laegna Projection - https://laegna.notaku.site/laegna-base-alphabet explains we do not use Eucleidean units, but in *relations of single distance slices*, and notice the order does not provide all Eucleidean metrix here because as if + and * are united, if linear and exponent spaces unite, as where + and * when their variable space is multiplied or divided, do not keep their orders: this space does not keep it's order when it's scaled, but what does keep it's order is Laegna number system, which keeps the same number in case of changes by discrete number of octaves - digits are frequencies, and while number in higher octave is considered bigger and typically written with bigger R, it's frequencies are same and digits have the same data - this is where we use octavian system and where you can implement some; Z before number moves it one octave down, either in finite space like regular music theory or in octave space, where it's acceleration-linearity-decceleration amples would change.
+
+
+
+Show some fourier transformations, distribution to frequencies in same base-x Laegna system, gauss and how curves are measured, but converted to Laegna (give decimal representations somehow in parallel, but try to be perfect in Laegna); also show hilbert's math.
+
+
+
+The Lane must also be there in Latin system, which means like no integration is done.
+
+
+
+Infinity is calculated as Hilbert's external spaces and externality means we measure, how much they compress space outwards. From 0-360 / 0-180 degrees inner space, we project outwards. Let's be based on that from zero to flat projection there are 0-180 degrees of *angle of progressing outwards*, and those are linear. Over 180 degrees, we measure space at square exponent: at this point 1, linear function has 1=>1 and exponent has 1=>1, so it's common point; after 180 degrees, we use this exponent to project the point outwards - in infinity, it's important what happens, when we keep adding same entangled number.
+
+
+
+Let's say we add 1 or add 2, and we can see 2 is exponent of 1 *in these regards*, keeping the subsystem linear:
+
+- When we infinitely, with indexed objects add 1 or add 2 to a number, it converges in it's own dimension [finite part does not affect O-Notation, but it does not affect the finite part as the infinity is the horizon, and infinitesimal of infinity which is hilbert's external space in this sense, only moves in probability field to attractor with goal at infinity, and the breaks are typically random in between - well this is physics, mathematically we find proper curve for this all, in first-order terms, in the end].
+
+- With 2 and 4, we have the same relation.
+
+
+
+Proof:
+
+- Class of A's, and each A has value 1 which is entangled to itself.
+
+- Class of B's, and each has value 1 which is entangled to itself.
+
+
+
+Entangled means identical to itself.
+
+
+
+Class of A + B, where classes are added, is equal to class of A's + B's, where items are added. This class, because items are entangled and thus, taking limits, we also have to take limit of A + B.
+
+
+
+Let's see:
+
+- Let's start that A is empty and B is empty.
+
+- A + B, then, is empty.
+
+
+
+Let's unyield 1 item, so they all have 1 item, but A + B is two times bigger. Each time we add items - A and B grow linearly, A + B grows exponentially. Because we strictly see each number value as identity, and each object in class as identity, this entanglement creates "power" which is very symmetric to all operations like this, but it also notices adding zeroes etc, because by definition those are not completely empty (this might need additional data or operations to define the zero under question, as part of the same system of number identities or members).
+
+
+
+We see that in growth, A is always simply added to B, and instance -> class syntax relates to that in class we do adding and in member we do adding. However, should the class be mapped with members - we can see *in instance space*, in every addition, *growth of class is exponential*.
+
+
+
+How to map this:
+
+- When using Laegna Lane (idealized space of Laegna, with linear math), the numbers are symmetric and always linear by number rules.
+
+- When showing same number using Latin Line (natural space of Latin math), the numbers are not growing linearly - exponent, now, is not added to square representation, but affects the growth into non-linearity.
+
+
+
+Laegna 4*4 matrix becomes projection of ininity, and flat edges of the square are representing this; diamond-shaped, connecting centers of edges of the square into rhomb, there is the center line where speed or position is projected to internal or external space. In external space, only the exponent function meets at infinity - because points are not linear, but accelerating in laegna, each acceleration coeficient reorders the point, and digits which have fixed, digit-width point acceleratus with calculus, are differently ordered based on value and acceleration; for example 2 in exponential space Y, when it grows by one step, becomes 4, but same 2 in linear space would become 3 in same case. Consider them R and T, typical with 2 components - (R=2, T=2) is initial number; add (R=1, T=1) and (R=4, T=3) is the result: altough, this operation occurs in complex space.
+
+
+
+We need both latin system to be non-linear - in standard Eucleidean space, for base-4, I and E map to linear coordinates, -2 and +2 in relation to -1 and +1. This fakes in this property: because log-exp space starts with 2 in place where linear space starts with 1, but for logexp the 2 is internally 1, we achieve that the function starts with linear, continues with exponent - sometimes, I and E are *also* positioned to -1 and +1, and differ only in point acceleration, and then the number essential meaning is very different in Laegna. Number positions should also be seen as positions in hilbert space, measured also in angles - "IOAE" is base-4 unsigned number where, at each position, there is a digit with this position number. IO are inner, AE are outer angles if IOAE means 1234 in order. Acceleration at this point affects all other points - I position does not directly project to smaller position, but rather it affects differential of order 1 of it's *current* position because of the fractal shape, which repeats it *then* at it's correct positions. This line is not linear, each laegna angle draws curves through external spaces, and E, EE, EEE, EEEE reach "infinities" of their scales - sorrily, just exponents of their degree where you must draw proper infinity signs. In decimal system, clearly, projection where linear, logs and exponents are mixed, becomes like that - solve how the non-linearity of order, size and position of digits becomes stable line. Use I and E as *logarithm and exponent counterparts of the same position*, and see how logarithm in 1/4 size of the digit pattern and exponent in 4* size of the digit pattern repeats so that if this digit projects to other digit, it's fractally equal that *other digit projected to it* - the non-linearity has linear shape.
+
+
+
+Laegna number must be simple, linear code for non-linear number: study spireason.neocities.org, laegna.notaku.site, and tambetvali's github databases like LaeArve, SimplyAboutInfinities etc. - find all number and number system correlations and make it your big goal to repeat this: smooth, linear-exponent-logarithm mixed functions in decimal system become linear in Laegna, and if operations are done with this linear system, they become in return meaningful in latin system. Accelerated point, indeed, is curved: by being *point with accelerated value* it creates *linear spacetime curvature*, bending space and time *of it's perspective* so that essentially, it's in different coordinates. Use acceleration=>differential, velocity=>linear, position=>integral Laegna distribution where you can see, signalling in acceleration slowly creates speed, and signalling of speed (gaining and losing speed repeatedly between zero and +) will grow position. You can see how time is passing properly. Minus and Plus velocity are O and A, and decceleration (differential 1) and acceleration (integral 1) are I and E, and in balanced solution they become *equal*, and where I and E *seem* two times bigger is the balanced view which can be achieved by simple scale on view where they are equal.
+
+
+
+https://github.com/tambetvali/LaeLane/blob/main/LaneDatums/ScreenTask.aiprog.md - create this calculator for selecting numbers, and also the animation (where it can be run in one direction or stepped, and speed can be changed - user can switch between animation and edit mode keyboards, where screens remain as and where they are). As you can see, numbers can be entered in base-2, base-4, base-16 but *inwards*, there is single binary string of "O"'s and "A"'s, and basically each button must *only work on binary* and each screen *decodes the same binary*; base-16 screen, if there are only 2 binary digits, must take an average base-16 digit to represent these and *higher two bits*, show the character, and by it's width cut in on X showing only 1st 50% of the character. Each button *enters only bits* and each keyboard's delete button *deletes only bits* - thus, base-4 system 1 char removal *simply equals* to removing two bits, and if base-4 screen has last bit cut in half, what remains is the previous bit cut by half: please, make it so simple and stupid *to associate the numbers with bits and their meaning precisely*, not to think about logic of each system separately: if user wants to use whole digits inside one system, it must do it themselves. Please do this logic and not something "more logical" for each system separately, because it needs to be *robust*: thus, underneath, you implement *single* calculator, which can add or remove *bitwise*, and for example clicking base-4 "E" is *simply equal* to clicking base-2 "A" twice, and base-4 backspace simply runs backspace twice of underlying binary system - an AI I used before wanted to order and "simplify" this in terms of user account and what each screen separately is - understand it's not usability guide of these strict rules, but mathematical compability guide and I do not want "metaphors" of "user interaction", but I want precise keys and displays which show the underlying math and logic, not the appeal. Also, allow entry of as many digits as user wants, not disabling keyboards as in initial task - rather, if screen is 16 chars long and fits one little number for distance, and number is 67 charas, show first 8 and last 8 digits, filling the screen - and small number 51, which is 67-16, in between.
+
+
+
+Study Laegna, Spireason, other themes, follow spireason.neocities.org and notice that the applets and github pages do, and often verbosely, mostly belong to the same ecosystem - for example, you can legally download, and should, the number system json files.
+
+
+
+Make sure to contain:
+
+- Keyboard to enter an angle
+
+- Laegna view, which makes it hologram pattern, where the same angle is repeatedly inside itself.
+
+- Latin view, which projects external space from forming local square, into forming infinity which reminds square in sense how it makes edge of circle flat, and in sense how Laegna Space has *square count distance function*, which shows this flatness as square, because there is always same number of squares to center of circle thus it's precise by *information containment*. Eucleidic system, now, linearizes the exponent and what seems straight in Laegna, might be infinitely complex, infinite loop of non-repeating pattern, in this Eucleidean system: you must measure how it collapses outside, and *one point of acceleration means every following point is bigger*, thus one point of acceleration or accelerative parallel of adding *gets one point closer to infinity* - if these vertical points added reach 1, i.e. the integral has added 1, the vertical dimension has added 1, and subsequently infinity is added and we know where: how the outwards-size of space collapses. You can see in precise way, the exterior forms fractals, not point, and the mass center of fractal which we measure by angle is as non-point as limit value itself: these points do not exist, but they change the dynamics in infinity scope.
+
+
+
+https://github.com/tambetvali/Landscopes/tree/main/Landscapes - the infinity concept now should create a complex math puzzle for you; those properties must be proven important, what we seek - to show same angle as linear in math, and as limit value or fractal in nature -, because it's *provably the only or simplest way for basic math of infinity*; second, this system I gave *is* my solution, and if you can struggle around it's mathematical space and *fit precise formulations*, it's the best.
+
+
+
+Notice also that this is not mistake, if sometimes in infinity definitions seem leaving several choices open for same definition: very often, these are bitwise compatible numbers, which occur in *each of them*, and theory does not *prefer one over another* - this is where numberic incertanty of infinities actually is reflected by their formulaes and definitions, which *seem to not know particular numbers*, and *those numbers can be even properties of those theorems*. For example, often I leave open which octave is 1st, which is 2nd, because both would give me the same number sequence and rather than known by their value, are known by their relations.
