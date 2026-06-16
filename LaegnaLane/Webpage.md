@@ -1,5 +1,5 @@
 If you remember [spireason.neocities.org](https://spireason.neocities.org/) address, you can go there, click scroll down first, then click infinity or calculator shaped symbol:
-- [⌸ Calculators 🏠]
+- [⌸ Calculators 🏠](https://spireason.neocities.org/#handheldcal).
 - [♾️ Infinity 🏠](https://spireason.neocities.org/#infinity).
 - For both positions, Lane-related work appears at the end.
 
