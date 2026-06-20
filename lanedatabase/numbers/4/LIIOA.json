@@ -1,0 +1,126 @@
+{
+    "1": {
+        "Ten": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedTen[\"1\"]",
+                "SrcY": "Axes.UnSignedTen[\"1\"][\"I\"]",
+                "X": 1,
+                "Y": -2
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedTen[\"1\"]",
+                "SrcY": "Axes.SignedTen[\"1\"][\"I\"]",
+                "X": 2,
+                "Y": 1
+            }
+        },
+        "Id": 1,
+        "Dec": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedDec[\"1\"]",
+                "SrcY": "Axes.UnSignedDec[\"1\"][\"I\"]",
+                "X": 1,
+                "Y": -2
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedDec[\"1\"]",
+                "SrcY": "Axes.SignedDec[\"1\"][\"I\"]",
+                "X": 2,
+                "Y": 1
+            }
+        }
+    },
+    "2": {
+        "Ten": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedTen[\"2\"]",
+                "SrcY": "Axes.UnSignedTen[\"2\"][\"II\"]",
+                "X": 2,
+                "Y": -8
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedTen[\"2\"]",
+                "SrcY": "Axes.SignedTen[\"2\"][\"II\"]",
+                "X": 4,
+                "Y": 1
+            }
+        },
+        "Id": 2,
+        "Dec": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedDec[\"2\"]",
+                "SrcY": "Axes.UnSignedDec[\"2\"][\"II\"]",
+                "X": 2,
+                "Y": -8
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedDec[\"2\"]",
+                "SrcY": "Axes.SignedDec[\"2\"][\"II\"]",
+                "X": 4,
+                "Y": 1
+            }
+        }
+    },
+    "3": {
+        "Ten": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedTen[\"3\"]",
+                "SrcY": "Axes.UnSignedTen[\"3\"][\"IIO\"]",
+                "X": 4,
+                "Y": -31
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedTen[\"3\"]",
+                "SrcY": "Axes.SignedTen[\"3\"][\"IIO\"]",
+                "X": 8,
+                "Y": 2
+            }
+        },
+        "Id": 3,
+        "Dec": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedDec[\"3\"]",
+                "SrcY": "Axes.UnSignedDec[\"3\"][\"IIO\"]",
+                "X": 4,
+                "Y": -31
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedDec[\"3\"]",
+                "SrcY": "Axes.SignedDec[\"3\"][\"IIO\"]",
+                "X": 8,
+                "Y": 2
+            }
+        }
+    },
+    "4": {
+        "Ten": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedTen[\"4\"]",
+                "SrcY": "Axes.UnSignedTen[\"4\"][\"IIOA\"]",
+                "X": 8,
+                "Y": -122
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedTen[\"4\"]",
+                "SrcY": "Axes.SignedTen[\"4\"][\"IIOA\"]",
+                "X": 16,
+                "Y": 7
+            }
+        },
+        "Id": 4,
+        "Dec": {
+            "Signed": {
+                "SrcAxeY": "Axes.UnSignedDec[\"4\"]",
+                "SrcY": "Axes.UnSignedDec[\"4\"][\"IIOA\"]",
+                "X": 8,
+                "Y": -110
+            },
+            "UnSigned": {
+                "SrcAxeY": "Axes.SignedDec[\"4\"]",
+                "SrcY": "Axes.SignedDec[\"4\"][\"IIOA\"]",
+                "X": 16,
+                "Y": 19
+            }
+        }
+    }
+}
