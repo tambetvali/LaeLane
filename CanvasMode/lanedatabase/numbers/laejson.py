@@ -1,7 +1,6 @@
-# laejson.py
-
 import os
 import json
+import csv
 
 
 class LaeJSON:
@@ -10,25 +9,33 @@ class LaeJSON:
         self.filename = filename
         self.width = int(width)
         self.height = int(height)
-        self.points = []  # list of (i, j)
+        self.points = []  # (i, j, x_center, y_center)
 
-    def add_point(self, i: int, j: int):
-        self.points.append((int(i), int(j)))
+    def add_point(self, i: int, j: int, x_center: float, y_center: float):
+        self.points.append((int(i), int(j), float(x_center), float(y_center)))
 
     def save(self):
-        out_dir = self.r
-        os.makedirs(out_dir, exist_ok=True)
-        path = os.path.join(out_dir, self.filename)
+        os.makedirs(self.r, exist_ok=True)
 
+        # JSON
+        json_path = os.path.join(self.r, self.filename)
         data = {
             "R": self.r,
             "WidthSquares": self.width,
             "HeightSquares": self.height,
             "Points": [
-                {"i": i, "j": j}
-                for (i, j) in self.points
+                {"i": i, "j": j, "x_center": x_center, "y_center": y_center}
+                for (i, j, x_center, y_center) in self.points
             ],
         }
-
-        with open(path, "w", encoding="utf-8") as f:
+        with open(json_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4)
+
+        # CSV
+        base = os.path.splitext(self.filename)[0]
+        csv_path = os.path.join(self.r, base + ".csv")
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["i", "j", "x_center", "y_center"])
+            for (i, j, x_center, y_center) in self.points:
+                w.writerow([i, j, x_center, y_center])

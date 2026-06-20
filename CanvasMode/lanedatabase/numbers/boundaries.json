@@ -19,7 +19,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigLae": {
                     "minX": 2,
@@ -38,7 +38,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "SigDec": {
                     "minX": 1,
@@ -57,7 +57,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigDec": {
                     "minX": 2,
@@ -76,7 +76,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 }
             },
             "WidthSquares": 1,
@@ -101,7 +101,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigLae": {
                     "minX": 2,
@@ -120,7 +120,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "SigDec": {
                     "minX": 1,
@@ -139,7 +139,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigDec": {
                     "minX": 2,
@@ -158,7 +158,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 }
             },
             "WidthSquares": 1,
@@ -183,7 +183,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigLae": {
                     "minX": 2,
@@ -202,7 +202,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "SigDec": {
                     "minX": 1,
@@ -221,7 +221,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigDec": {
                     "minX": 2,
@@ -240,7 +240,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 }
             },
             "WidthSquares": 2,
@@ -265,7 +265,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigLae": {
                     "minX": 2,
@@ -284,7 +284,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "SigDec": {
                     "minX": 1,
@@ -303,7 +303,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigDec": {
                     "minX": 2,
@@ -322,7 +322,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 }
             },
             "WidthSquares": 6,
@@ -347,7 +347,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigLae": {
                     "minX": 2,
@@ -366,7 +366,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "SigDec": {
                     "minX": 1,
@@ -385,7 +385,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 },
                 "UnsigDec": {
                     "minX": 2,
@@ -404,7 +404,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
                 }
             },
             "WidthSquares": 14,

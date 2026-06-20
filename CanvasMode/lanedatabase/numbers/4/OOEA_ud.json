@@ -5,19 +5,27 @@
     "Points": [
         {
             "i": 0,
-            "j": 1
+            "j": 1,
+            "x_center": 2.5,
+            "y_center": 2.5
         },
         {
             "i": 2,
-            "j": 3
+            "j": 3,
+            "x_center": 4.5,
+            "y_center": 4.5
         },
         {
             "i": 6,
-            "j": 15
+            "j": 15,
+            "x_center": 8.5,
+            "y_center": 16.5
         },
         {
             "i": 14,
-            "j": 62
+            "j": 62,
+            "x_center": 16.5,
+            "y_center": 63.5
         }
     ]
 }

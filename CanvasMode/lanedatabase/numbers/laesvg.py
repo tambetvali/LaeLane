@@ -1,80 +1,63 @@
-# laesvg.py
-
 import os
 from xml.etree.ElementTree import Element, SubElement, ElementTree
 
 
 class LaeSVG:
-    def __init__(self, filename: str, r: str, width: int, height: int):
+    def __init__(self, filename: str, r: str, width: int, height: int, min_x: int, min_y: int):
         self.r = r
         self.filename = filename
-        self.width = int(width)
-        self.height = int(height)
-        self.points = []  # list of (x_center, y_center) in Laegna coords
+        self.width = int(width)      # Laegna units
+        self.height = int(height)    # Laegna units
+        self.min_x = int(min_x)
+        self.min_y = int(min_y)
+        self.points = []  # (x_center, y_center) in Laegna coords
 
     def add_point(self, x_center: float, y_center: float):
         self.points.append((float(x_center), float(y_center)))
 
     def save(self):
-        out_dir = self.r
-        os.makedirs(out_dir, exist_ok=True)
-        path = os.path.join(out_dir, self.filename)
+        os.makedirs(self.r, exist_ok=True)
+        path = os.path.join(self.r, self.filename)
 
+        # 1 Laegna unit = 1 cm
         svg = Element(
             "svg",
             {
                 "xmlns": "http://www.w3.org/2000/svg",
                 "version": "1.1",
-                "viewBox": f"0 0 {self.width} {self.height}",
+                "width": f"{self.width}cm",
+                "height": f"{self.height}cm",
+                "viewBox": f"{self.min_x} {self.min_y} {self.width} {self.height}",
             },
         )
 
-        # Map Laegna centers to SVG coordinates:
-        # For simplicity, we map them into [0,width]x[0,height] by shifting
-        # relative to min center; converter already ensured tight bounds.
-        # Here we just draw circles at normalized positions.
-
         if self.points:
-            xs = [p[0] for p in self.points]
-            ys = [p[1] for p in self.points]
-            min_x, max_x = min(xs), max(xs)
-            min_y, max_y = min(ys), max(ys)
-            span_x = max(max_x - min_x, 1e-9)
-            span_y = max(max_y - min_y, 1e-9)
-
-            def norm(px, py):
-                nx = (px - min_x) / span_x * (self.width - 1)
-                ny = (py - min_y) / span_y * (self.height - 1)
-                return nx, self.height - 1 - ny
-
-            # Draw lines connecting points in order
+            # Lines between centers (if ≥2)
             if len(self.points) >= 2:
                 d = []
-                for idx, (px, py) in enumerate(self.points):
-                    sx, sy = norm(px, py)
+                for idx, (x, y) in enumerate(self.points):
                     cmd = "M" if idx == 0 else "L"
-                    d.append(f"{cmd} {sx} {sy}")
-                path_el = SubElement(
+                    d.append(f"{cmd} {x} {y}")
+                SubElement(
                     svg,
                     "path",
                     {
                         "d": " ".join(d),
                         "stroke": "black",
                         "fill": "none",
-                        "stroke-width": "0.1",
+                        "stroke-width": "0.05",  # 0.05 cm
                     },
                 )
 
-            # Draw dots for each point
-            for (px, py) in self.points:
-                sx, sy = norm(px, py)
+            # Dots at centers
+            for (x, y) in self.points:
                 SubElement(
                     svg,
                     "circle",
                     {
-                        "cx": str(sx),
-                        "cy": str(sy),
-                        "r": "0.2",
+                        "cx": str(x),
+                        "cy": str(y),
+                        "r": "0.25",  # 0.25 cm radius
                         "fill": "black",
                     },
                 )

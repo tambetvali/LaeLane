@@ -1,5 +1,3 @@
-# converter.py
-
 import os
 import json
 
@@ -54,24 +52,33 @@ def extract_points_mode(data, axe: str, sign: str):
         try:
             x = node[axe][sign]["X"]
             y = node[axe][sign]["Y"]
-        except KeyError as e:
-            log(f"      WARNING: missing key {e} in index {idx}")
+        except KeyError:
             continue
         pts.append((int(x), int(y)))
     return pts
 
 
 def laegna_to_pixel(x: int, y: int, b: dict):
-    return x - b["minX"], y - b["minY"]
+    i = x - b["minX"]
+    j = y - b["minY"]
+    return i, j
 
 
-def pixel_to_svg_center(i: int, j: int, b: dict):
+def pixel_to_center(i: int, j: int, b: dict):
+    # x = minX + 0.5 + i = x + 0.5
+    # y = minY + 0.5 + j = y + 0.5
     x = b["minX"] + 0.5 + i
     y = b["minY"] + 0.5 + j
     return x, y
 
 
 def compute_boundaries():
+    """
+    Per-R+mode shared bounds:
+    - minX, maxX, minY, maxY from ALL glyphs in that R+mode.
+    - widthSquares = maxX - minX (>=1)
+    - heightSquares = maxY - minY (>=1)
+    """
     boundaries = {"R": {}}
 
     for r in R_FOLDERS:
@@ -86,8 +93,6 @@ def compute_boundaries():
             log(f"  ERROR reading folder {r}: {e}")
             continue
 
-        log(f"  Files found: {files}")
-
         boundaries["R"][r] = {
             "Modes": {},
             "WidthSquares": None,
@@ -95,7 +100,6 @@ def compute_boundaries():
         }
 
         for mode_name, (axe, sign) in MODES.items():
-            log(f"  Mode: {mode_name} (axe={axe}, sign={sign})")
             all_pts = []
 
             for fname in files:
@@ -107,15 +111,13 @@ def compute_boundaries():
                 fpath = os.path.join(r, fname)
                 try:
                     data = load_json(fpath)
-                except Exception as e:
-                    log(f"      ERROR loading JSON {fname}: {e}")
+                except Exception:
                     continue
 
                 pts = extract_points_mode(data, axe, sign)
                 all_pts.extend(pts)
 
             if not all_pts:
-                log(f"  Mode {mode_name}: no points in R={r}, skipping")
                 continue
 
             xs = [p[0] for p in all_pts]
@@ -124,14 +126,12 @@ def compute_boundaries():
             min_x, max_x = min(xs), max(xs)
             min_y, max_y = min(ys), max(ys)
 
-            width = max_x - min_x or 1
-            height = max_y - min_y or 1
-
-            log(
-                f"  Boundaries R={r}, mode={mode_name}: "
-                f"minX={min_x}, maxX={max_x}, minY={min_y}, maxY={max_y}, "
-                f"widthSquares={width}, heightSquares={height}"
-            )
+            width = max_x - min_x
+            height = max_y - min_y
+            if width <= 0:
+                width = 1
+            if height <= 0:
+                height = 1
 
             boundaries["R"][r]["Modes"][mode_name] = {
                 "minX": min_x,
@@ -142,9 +142,10 @@ def compute_boundaries():
                 "heightSquares": height,
                 "projection": [[1, 0], [0, 1]],
                 "explanation": (
-                    "Boundaries describe exteriors of unit squares. "
+                    "Per-R+mode shared bounds. "
+                    "Squares are unit length. "
                     "Pixel index i = x - minX, j = y - minY. "
-                    "SVG center = minX + 0.5 + i, minY + 0.5 + j."
+                    "Center = x + 0.5, y + 0.5."
                 ),
             }
 
@@ -157,8 +158,6 @@ def compute_boundaries():
         if ws and hs:
             boundaries["R"][r]["WidthSquares"] = max(ws)
             boundaries["R"][r]["HeightSquares"] = max(hs)
-        else:
-            log(f"  WARNING: R={r} has no modes with points")
 
     with open("boundaries.json", "w", encoding="utf-8") as f:
         json.dump(boundaries, f, indent=4)
@@ -193,7 +192,6 @@ def generate_all(boundaries: dict):
     readme = []
 
     for r in R_FOLDERS:
-        log(f"Generating outputs for R={r}")
         if not os.path.isdir(r):
             continue
 
@@ -218,8 +216,7 @@ def generate_all(boundaries: dict):
             fpath = os.path.join(r, fname)
             try:
                 data = load_json(fpath)
-            except Exception as e:
-                log(f"    ERROR loading JSON {fname}: {e}")
+            except Exception:
                 continue
 
             base = os.path.splitext(fname)[0]
@@ -238,36 +235,39 @@ def generate_all(boundaries: dict):
 
                 pts_pix = [laegna_to_pixel(x, y, b) for (x, y) in pts_lae]
 
-                if len(pts_pix) == 1:
-                    log(f"    {num} R={r} mode={mode_name}: single-point dot")
-
                 readme.append(f"## {num} / {mode_name}\n")
                 for i, (x, y) in enumerate(pts_lae, 1):
                     readme.append(f"- Laegna {i}: ({x}, {y})")
-                for i, (px, py) in enumerate(pts_pix, 1):
-                    readme.append(f"  - Pixel {i}: ({px}, {py})")
+                for i, (pi, pj) in enumerate(pts_pix, 1):
+                    readme.append(f"  - Pixel {i}: ({pi}, {pj})")
 
                 suffix = MODE_SUFFIX[mode_name]
-                width = b["widthSquares"] or 1
-                height = b["heightSquares"] or 1
+                width = b["widthSquares"]
+                height = b["heightSquares"]
 
+                # PNG: one pixel per square
                 png_name = f"{num}{suffix}.png"
                 png = LaePNG(png_name, r, width, height)
-                for (px, py) in pts_pix:
-                    png.add_point(px, py)
+                for (pi, pj) in pts_pix:
+                    png.add_point(pi, pj)
                 png.save()
 
+                # SVG: true Laegna coordinates, shared per-R+mode bounds
                 svg_name = f"{num}{suffix}.svg"
-                svg = LaeSVG(svg_name, r, width, height)
-                for (px, py) in pts_pix:
-                    sx, sy = pixel_to_svg_center(px, py, b)
-                    svg.add_point(sx, sy)
+                svg = LaeSVG(svg_name, r, width, height, b["minX"], b["minY"])
+                for (pi, pj) in pts_pix:
+                    cx, cy = pixel_to_center(pi, pj, b)
+                    svg.add_point(cx, cy)
                 svg.save()
 
+                # JSON + CSV meta
                 json_name = f"{num}{suffix}.json"
                 jj = LaeJSON(json_name, r, width, height)
-                for (px, py) in pts_pix:
-                    jj.add_point(px, py)
+                for (pi, pj), (x, y) in zip(pts_pix, pts_lae):
+                    # x_center = x + 0.5, y_center = y + 0.5
+                    x_center = x + 0.5
+                    y_center = y + 0.5
+                    jj.add_point(pi, pj, x_center, y_center)
                 jj.save()
 
                 gen_record.append(
