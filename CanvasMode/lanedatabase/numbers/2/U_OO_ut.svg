@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="2" height="16"
-     viewBox="0 0 2 16">
-<rect width="2" height="16" fill="#FFFFFF" />
+     width="2" height="15"
+     viewBox="0 0 2 15">
+<rect width="2" height="15" fill="#FFFFFF" />
 <polyline points="2,2 4,6"
     fill="none"
     stroke="#000000"

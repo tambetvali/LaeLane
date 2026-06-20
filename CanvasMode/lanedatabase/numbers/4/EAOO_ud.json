@@ -1,6 +1,6 @@
 {
     "width": 14,
-    "height": 256,
+    "height": 255,
     "points": [
         [
             0,
@@ -21,12 +21,12 @@
     ],
     "csv": "X,Y\n0,3\n2,14\n6,53\n14,203",
     "svg": {
-        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"256\"\n     viewBox=\"0 0 14 256\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"256\"\n     viewBox=\"0 0 14 256\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"256\"\n     viewBox=\"0 0 14 256\">\n<rect width=\"14\" height=\"256\" fill=\"#FFFFFF\" />\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"256\"\n     viewBox=\"0 0 14 256\">\n<rect width=\"14\" height=\"256\" fill=\"#000000\" />\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"256\"\n     viewBox=\"0 0 14 256\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"256\"\n     viewBox=\"0 0 14 256\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
+        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n<rect width=\"14\" height=\"255\" fill=\"#FFFFFF\" />\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n<rect width=\"14\" height=\"255\" fill=\"#000000\" />\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,14 6,53 14,203\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
     },
     "files": {
         "png": {

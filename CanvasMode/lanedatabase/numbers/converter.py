@@ -1,5 +1,5 @@
 # ============================
-# converter.py  (diagnostic, boundary-aware, L-only)
+# converter.py  (boundary-aware, L-only, per-mode tight)
 # ============================
 
 import os
@@ -149,6 +149,10 @@ def compute_boundaries():
         ...
       }
     }
+
+    WidthSquares/HeightSquares per mode are tight: maxX - minX, maxY - minY.
+    Global WidthSquares/HeightSquares per R are max over modes (for reference),
+    but generation uses per-mode width/height to avoid extra space.
     """
     boundaries = {"R": {}}
 
@@ -235,7 +239,7 @@ def compute_boundaries():
                 ),
             }
 
-        # Global width/height for this R (max over modes)
+        # Global width/height for this R (max over modes) — reference only
         ws = []
         hs = []
         for m in boundaries["R"][r]["Modes"].values():
@@ -303,8 +307,6 @@ def generate_all(boundaries: dict):
             continue
 
         modes_bound = rdata["Modes"]
-        global_w = rdata["WidthSquares"] or 1
-        global_h = rdata["HeightSquares"] or 1
 
         try:
             files = os.listdir(r)
@@ -362,9 +364,9 @@ def generate_all(boundaries: dict):
 
                 suffix = MODE_SUFFIX[mode_name]
 
-                # Use max of global and mode-specific width/height
-                width = max(global_w, b["widthSquares"]) or 1
-                height = max(global_h, b["heightSquares"]) or 1
+                # Per-mode tight bounding box: use mode-specific width/height
+                width = b["widthSquares"] or 1
+                height = b["heightSquares"] or 1
 
                 # ---------------- PNG ----------------
                 png_name = f"{num}{suffix}.png"
