@@ -1,5 +1,4 @@
-# LaeLane Technical Whitepaper (Hybrid Style, Full Inline Code Excerpts)
-*(All internal code blocks use escaped fences ``` so this file can be copied as one piece.)*
+# LaeLane Technical Whitepaper
 
 ## Abstract
 
