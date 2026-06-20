@@ -1,50 +1,23 @@
 {
-    "width": 14,
-    "height": 255,
-    "points": [
-        [
-            0,
-            3
-        ],
-        [
-            2,
-            13
-        ],
-        [
-            6,
-            54
-        ],
-        [
-            14,
-            218
-        ]
-    ],
-    "csv": "X,Y\n0,3\n2,13\n6,54\n14,218",
-    "svg": {
-        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,13 6,54 14,218\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,13 6,54 14,218\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n<rect width=\"14\" height=\"255\" fill=\"#FFFFFF\" />\n<polyline points=\"0,3 2,13 6,54 14,218\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n<rect width=\"14\" height=\"255\" fill=\"#000000\" />\n<polyline points=\"0,3 2,13 6,54 14,218\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,13 6,54 14,218\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"14\" height=\"255\"\n     viewBox=\"0 0 14 255\">\n\n<polyline points=\"0,3 2,13 6,54 14,218\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
-    },
-    "files": {
-        "png": {
-            "I": "I_EOAA_ut.png",
-            "E": "E_EOAA_ut.png",
-            "O": "O_EOAA_ut.png",
-            "A": "A_EOAA_ut.png",
-            "U": "U_EOAA_ut.png",
-            "V": "V_EOAA_ut.png"
+    "R": "4",
+    "WidthSquares": 14,
+    "HeightSquares": 255,
+    "Points": [
+        {
+            "i": 0,
+            "j": 3
         },
-        "svg": {
-            "I": "I_EOAA_ut.svg",
-            "E": "E_EOAA_ut.svg",
-            "O": "O_EOAA_ut.svg",
-            "A": "A_EOAA_ut.svg",
-            "U": "U_EOAA_ut.svg",
-            "V": "V_EOAA_ut.svg"
+        {
+            "i": 2,
+            "j": 13
         },
-        "csv": "EOAA_ut.csv"
-    }
+        {
+            "i": 6,
+            "j": 54
+        },
+        {
+            "i": 14,
+            "j": 218
+        }
+    ]
 }

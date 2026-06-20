@@ -1,42 +1,11 @@
 {
-    "width": 1,
-    "height": 3,
-    "points": [
-        [
-            0,
-            3
-        ],
-        [
-            0,
-            3
-        ]
-    ],
-    "csv": "X,Y\n0,3\n0,3",
-    "svg": {
-        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n\n<polyline points=\"0,3 0,3\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n\n<polyline points=\"0,3 0,3\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n<rect width=\"1\" height=\"3\" fill=\"#FFFFFF\" />\n<polyline points=\"0,3 0,3\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n<rect width=\"1\" height=\"3\" fill=\"#000000\" />\n<polyline points=\"0,3 0,3\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n\n<polyline points=\"0,3 0,3\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n\n<polyline points=\"0,3 0,3\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
-    },
-    "files": {
-        "png": {
-            "I": "I_E_ut.png",
-            "E": "E_E_ut.png",
-            "O": "O_E_ut.png",
-            "A": "A_E_ut.png",
-            "U": "U_E_ut.png",
-            "V": "V_E_ut.png"
-        },
-        "svg": {
-            "I": "I_E_ut.svg",
-            "E": "E_E_ut.svg",
-            "O": "O_E_ut.svg",
-            "A": "A_E_ut.svg",
-            "U": "U_E_ut.svg",
-            "V": "V_E_ut.svg"
-        },
-        "csv": "E_ut.csv"
-    }
+    "R": "0.5",
+    "WidthSquares": 1,
+    "HeightSquares": 3,
+    "Points": [
+        {
+            "i": 0,
+            "j": 3
+        }
+    ]
 }

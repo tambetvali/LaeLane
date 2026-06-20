@@ -1,50 +1,23 @@
 {
-    "width": 7,
-    "height": 256,
-    "points": [
-        [
-            0,
-            129
-        ],
-        [
-            1,
-            130
-        ],
-        [
-            3,
-            139
-        ],
-        [
-            7,
-            165
-        ]
-    ],
-    "csv": "X,Y\n0,129\n1,130\n3,139\n7,165",
-    "svg": {
-        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"7\" height=\"256\"\n     viewBox=\"0 0 7 256\">\n\n<polyline points=\"0,129 1,130 3,139 7,165\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"7\" height=\"256\"\n     viewBox=\"0 0 7 256\">\n\n<polyline points=\"0,129 1,130 3,139 7,165\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"7\" height=\"256\"\n     viewBox=\"0 0 7 256\">\n<rect width=\"7\" height=\"256\" fill=\"#FFFFFF\" />\n<polyline points=\"0,129 1,130 3,139 7,165\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"7\" height=\"256\"\n     viewBox=\"0 0 7 256\">\n<rect width=\"7\" height=\"256\" fill=\"#000000\" />\n<polyline points=\"0,129 1,130 3,139 7,165\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"7\" height=\"256\"\n     viewBox=\"0 0 7 256\">\n<rect width=\"7\" height=\"256\" fill=\"#000000\" />\n<polyline points=\"0,129 1,130 3,139 7,165\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"7\" height=\"256\"\n     viewBox=\"0 0 7 256\">\n<rect width=\"7\" height=\"256\" fill=\"#FFFFFF\" />\n<polyline points=\"0,129 1,130 3,139 7,165\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
-    },
-    "files": {
-        "png": {
-            "I": "I_AOAI_sd.png",
-            "E": "E_AOAI_sd.png",
-            "O": "O_AOAI_sd.png",
-            "A": "A_AOAI_sd.png",
-            "U": "U_AOAI_sd.png",
-            "V": "V_AOAI_sd.png"
+    "R": "4",
+    "WidthSquares": 7,
+    "HeightSquares": 256,
+    "Points": [
+        {
+            "i": 0,
+            "j": 129
         },
-        "svg": {
-            "I": "I_AOAI_sd.svg",
-            "E": "E_AOAI_sd.svg",
-            "O": "O_AOAI_sd.svg",
-            "A": "A_AOAI_sd.svg",
-            "U": "U_AOAI_sd.svg",
-            "V": "V_AOAI_sd.svg"
+        {
+            "i": 1,
+            "j": 130
         },
-        "csv": "AOAI_sd.csv"
-    }
+        {
+            "i": 3,
+            "j": 139
+        },
+        {
+            "i": 7,
+            "j": 165
+        }
+    ]
 }

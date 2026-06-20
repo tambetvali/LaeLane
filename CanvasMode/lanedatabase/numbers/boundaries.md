@@ -2,7 +2,7 @@
 
 ## R=0.5
 
-- Global width (squares): 0
+- Global width (squares): 1
 - Global height (squares): 4
 
 ### Mode SigLae
@@ -11,7 +11,7 @@
 - maxX: 1
 - minY: -2
 - maxY: 2
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 4
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.
@@ -22,7 +22,7 @@
 - maxX: 2
 - minY: 1
 - maxY: 4
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 3
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.
@@ -33,7 +33,7 @@
 - maxX: 1
 - minY: -2
 - maxY: 2
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 4
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.
@@ -44,14 +44,14 @@
 - maxX: 2
 - minY: 1
 - maxY: 4
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 3
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.
 
 ## R=1
 
-- Global width (squares): 0
+- Global width (squares): 1
 - Global height (squares): 4
 
 ### Mode SigLae
@@ -60,7 +60,7 @@
 - maxX: 1
 - minY: -2
 - maxY: 2
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 4
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.
@@ -71,7 +71,7 @@
 - maxX: 2
 - minY: 1
 - maxY: 4
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 3
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.
@@ -82,7 +82,7 @@
 - maxX: 1
 - minY: -2
 - maxY: 2
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 4
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.
@@ -93,7 +93,7 @@
 - maxX: 2
 - minY: 1
 - maxY: 4
-- widthSquares: 0
+- widthSquares: 1
 - heightSquares: 3
 - projection: [[1,0],[0,1]]
 - explanation: Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j.

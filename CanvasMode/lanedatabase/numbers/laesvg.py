@@ -1,150 +1,83 @@
-# ============================
-# laesvg.py  (SVG GENERATOR)
-# ============================
+# laesvg.py
 
 import os
+from xml.etree.ElementTree import Element, SubElement, ElementTree
+
 
 class LaeSVG:
-    """
-    Stand-alone SVG generator.
-    Same interface as PNG generator:
-        - __init__(filename, folder, width, height)
-        - add_point(x, y)
-        - save()
-
-    Produces:
-        I_name.svg  (black line, transparent bg)
-        E_name.svg  (white line, transparent bg)
-        O_name.svg  (black line, white bg)
-        A_name.svg  (white line, black bg)
-        U_name.svg  (copy of style matching first letter)
-        V_name.svg  (copy of opposite letter style)
-        name.svg.csv (point list)
-
-    Pixel-precision integer coordinates.
-    No smoothing, no AA (SVG uses straight segments).
-    """
-
-    def __init__(self, filename, folder, width, height):
+    def __init__(self, filename: str, r: str, width: int, height: int):
+        self.r = r
         self.filename = filename
-        self.folder = folder
-        self.width = width
-        self.height = height
-        self.points = []
+        self.width = int(width)
+        self.height = int(height)
+        self.points = []  # list of (x_center, y_center) in Laegna coords
 
-        os.makedirs(folder, exist_ok=True)
+    def add_point(self, x_center: float, y_center: float):
+        self.points.append((float(x_center), float(y_center)))
 
-    # -------------------------
-    # Add pixel-precise point
-    # -------------------------
-    def add_point(self, x, y):
-        self.points.append((int(x), int(y)))
-
-    # -------------------------
-    # Helpers
-    # -------------------------
-    def _basename(self):
-        return os.path.splitext(os.path.basename(self.filename))[0]
-
-    def _first_letter(self):
-        return self._basename()[0]
-
-    def _opposite(self, L):
-        return {"A":"O", "O":"A", "E":"I", "I":"E"}.get(L, L)
-
-    # -------------------------
-    # SVG template generator
-    # -------------------------
-    def _svg_template(self, stroke_color, bg_color):
-        """
-        stroke_color: "#000000" or "#FFFFFF"
-        bg_color: None (transparent) or "#000000"/"#FFFFFF"
-        """
-
-        # Build polyline points
-        pts = " ".join(f"{x},{y}" for x, y in self.points)
-
-        # Background rect if needed
-        if bg_color is None:
-            bg = ""
-        else:
-            bg = f'<rect width="{self.width}" height="{self.height}" fill="{bg_color}" />'
-
-        svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
-     width="{self.width}" height="{self.height}"
-     viewBox="0 0 {self.width} {self.height}">
-{bg}
-<polyline points="{pts}"
-    fill="none"
-    stroke="{stroke_color}"
-    stroke-width="1"
-    stroke-linejoin="miter"
-    stroke-linecap="butt" />
-</svg>'''
-        return svg
-
-    # -------------------------
-    # Save SVG
-    # -------------------------
-    def _save_svg(self, outname, svg_text):
-        path = os.path.join(self.folder, outname)
-        with open(path, "w") as f:
-            f.write(svg_text)
-
-    # -------------------------
-    # Save CSV
-    # -------------------------
-    def _save_csv(self, outname):
-        path = os.path.join(self.folder, outname)
-        with open(path, "w") as f:
-            f.write("X,Y\n")
-            for x, y in self.points:
-                f.write(f"{x},{y}\n")
-
-    # -------------------------
-    # Main save()
-    # -------------------------
     def save(self):
-        name = self._basename()
-        first = self._first_letter()
+        out_dir = self.r
+        os.makedirs(out_dir, exist_ok=True)
+        path = os.path.join(out_dir, self.filename)
 
-        # 4 archetypes
-        svg_I = self._svg_template("#000000", None)        # black on transparent
-        svg_E = self._svg_template("#FFFFFF", None)        # white on transparent
-        svg_O = self._svg_template("#000000", "#FFFFFF")   # black on white
-        svg_A = self._svg_template("#FFFFFF", "#000000")   # white on black
+        svg = Element(
+            "svg",
+            {
+                "xmlns": "http://www.w3.org/2000/svg",
+                "version": "1.1",
+                "viewBox": f"0 0 {self.width} {self.height}",
+            },
+        )
 
-        self._save_svg(f"I_{name}.svg", svg_I)
-        self._save_svg(f"E_{name}.svg", svg_E)
-        self._save_svg(f"O_{name}.svg", svg_O)
-        self._save_svg(f"A_{name}.svg", svg_A)
+        # Map Laegna centers to SVG coordinates:
+        # For simplicity, we map them into [0,width]x[0,height] by shifting
+        # relative to min center; converter already ensured tight bounds.
+        # Here we just draw circles at normalized positions.
 
-        # U = copy of style matching first letter
-        style_map = {
-            "I": svg_I,
-            "E": svg_E,
-            "O": svg_O,
-            "A": svg_A
-        }
-        U_svg = style_map.get(first, svg_I)
-        self._save_svg(f"U_{name}.svg", U_svg)
+        if self.points:
+            xs = [p[0] for p in self.points]
+            ys = [p[1] for p in self.points]
+            min_x, max_x = min(xs), max(xs)
+            min_y, max_y = min(ys), max(ys)
+            span_x = max(max_x - min_x, 1e-9)
+            span_y = max(max_y - min_y, 1e-9)
 
-        # V = opposite letter
-        opp = self._opposite(first)
-        V_svg = style_map.get(opp, svg_I)
-        self._save_svg(f"V_{name}.svg", V_svg)
+            def norm(px, py):
+                nx = (px - min_x) / span_x * (self.width - 1)
+                ny = (py - min_y) / span_y * (self.height - 1)
+                return nx, self.height - 1 - ny
 
-        # CSV
-        self._save_csv(f"{name}.svg.csv")
+            # Draw lines connecting points in order
+            if len(self.points) >= 2:
+                d = []
+                for idx, (px, py) in enumerate(self.points):
+                    sx, sy = norm(px, py)
+                    cmd = "M" if idx == 0 else "L"
+                    d.append(f"{cmd} {sx} {sy}")
+                path_el = SubElement(
+                    svg,
+                    "path",
+                    {
+                        "d": " ".join(d),
+                        "stroke": "black",
+                        "fill": "none",
+                        "stroke-width": "0.1",
+                    },
+                )
 
+            # Draw dots for each point
+            for (px, py) in self.points:
+                sx, sy = norm(px, py)
+                SubElement(
+                    svg,
+                    "circle",
+                    {
+                        "cx": str(sx),
+                        "cy": str(sy),
+                        "r": "0.2",
+                        "fill": "black",
+                    },
+                )
 
-
-# ============================
-# Example usage
-# ============================
-
-# from laesvg import LaeSVG
-# renderer = LaeSVG("AA_laesig.svg", "output/", 128, 128)
-# for (x,y) in [(10,10),(20,20),(30,10),(40,20)]:
-#     renderer.add_point(x,y)
-# renderer.save()
+        tree = ElementTree(svg)
+        tree.write(path, encoding="utf-8", xml_declaration=True)

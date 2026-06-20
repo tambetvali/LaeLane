@@ -1,42 +1,15 @@
 {
-    "width": 2,
-    "height": 15,
-    "points": [
-        [
-            0,
-            3
-        ],
-        [
-            2,
-            13
-        ]
-    ],
-    "csv": "X,Y\n0,3\n2,13",
-    "svg": {
-        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,3 2,13\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,3 2,13\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n<rect width=\"2\" height=\"15\" fill=\"#FFFFFF\" />\n<polyline points=\"0,3 2,13\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n<rect width=\"2\" height=\"15\" fill=\"#000000\" />\n<polyline points=\"0,3 2,13\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,3 2,13\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,3 2,13\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
-    },
-    "files": {
-        "png": {
-            "I": "I_EO_ut.png",
-            "E": "E_EO_ut.png",
-            "O": "O_EO_ut.png",
-            "A": "A_EO_ut.png",
-            "U": "U_EO_ut.png",
-            "V": "V_EO_ut.png"
+    "R": "2",
+    "WidthSquares": 2,
+    "HeightSquares": 15,
+    "Points": [
+        {
+            "i": 0,
+            "j": 3
         },
-        "svg": {
-            "I": "I_EO_ut.svg",
-            "E": "E_EO_ut.svg",
-            "O": "O_EO_ut.svg",
-            "A": "A_EO_ut.svg",
-            "U": "U_EO_ut.svg",
-            "V": "V_EO_ut.svg"
-        },
-        "csv": "EO_ut.csv"
-    }
+        {
+            "i": 2,
+            "j": 13
+        }
+    ]
 }

@@ -7,7 +7,7 @@
                     "maxX": 1,
                     "minY": -2,
                     "maxY": 2,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 4,
                     "projection": [
                         [
@@ -26,7 +26,7 @@
                     "maxX": 2,
                     "minY": 1,
                     "maxY": 4,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 3,
                     "projection": [
                         [
@@ -45,7 +45,7 @@
                     "maxX": 1,
                     "minY": -2,
                     "maxY": 2,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 4,
                     "projection": [
                         [
@@ -64,7 +64,7 @@
                     "maxX": 2,
                     "minY": 1,
                     "maxY": 4,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 3,
                     "projection": [
                         [
@@ -79,7 +79,7 @@
                     "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
                 }
             },
-            "WidthSquares": 0,
+            "WidthSquares": 1,
             "HeightSquares": 4
         },
         "1": {
@@ -89,7 +89,7 @@
                     "maxX": 1,
                     "minY": -2,
                     "maxY": 2,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 4,
                     "projection": [
                         [
@@ -108,7 +108,7 @@
                     "maxX": 2,
                     "minY": 1,
                     "maxY": 4,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 3,
                     "projection": [
                         [
@@ -127,7 +127,7 @@
                     "maxX": 1,
                     "minY": -2,
                     "maxY": 2,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 4,
                     "projection": [
                         [
@@ -146,7 +146,7 @@
                     "maxX": 2,
                     "minY": 1,
                     "maxY": 4,
-                    "widthSquares": 0,
+                    "widthSquares": 1,
                     "heightSquares": 3,
                     "projection": [
                         [
@@ -161,7 +161,7 @@
                     "explanation": "Boundaries describe exteriors of unit squares. Pixel index i = x - minX, j = y - minY. SVG center = minX + 0.5 + i, minY + 0.5 + j."
                 }
             },
-            "WidthSquares": 0,
+            "WidthSquares": 1,
             "HeightSquares": 4
         },
         "2": {

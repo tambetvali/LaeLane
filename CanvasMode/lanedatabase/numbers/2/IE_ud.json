@@ -1,42 +1,15 @@
 {
-    "width": 2,
-    "height": 15,
-    "points": [
-        [
-            0,
-            0
-        ],
-        [
-            2,
-            5
-        ]
-    ],
-    "csv": "X,Y\n0,0\n2,5",
-    "svg": {
-        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,0 2,5\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,0 2,5\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n<rect width=\"2\" height=\"15\" fill=\"#FFFFFF\" />\n<polyline points=\"0,0 2,5\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n<rect width=\"2\" height=\"15\" fill=\"#000000\" />\n<polyline points=\"0,0 2,5\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,0 2,5\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"2\" height=\"15\"\n     viewBox=\"0 0 2 15\">\n\n<polyline points=\"0,0 2,5\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
-    },
-    "files": {
-        "png": {
-            "I": "I_IE_ud.png",
-            "E": "E_IE_ud.png",
-            "O": "O_IE_ud.png",
-            "A": "A_IE_ud.png",
-            "U": "U_IE_ud.png",
-            "V": "V_IE_ud.png"
+    "R": "2",
+    "WidthSquares": 2,
+    "HeightSquares": 15,
+    "Points": [
+        {
+            "i": 0,
+            "j": 0
         },
-        "svg": {
-            "I": "I_IE_ud.svg",
-            "E": "E_IE_ud.svg",
-            "O": "O_IE_ud.svg",
-            "A": "A_IE_ud.svg",
-            "U": "U_IE_ud.svg",
-            "V": "V_IE_ud.svg"
-        },
-        "csv": "IE_ud.csv"
-    }
+        {
+            "i": 2,
+            "j": 5
+        }
+    ]
 }

@@ -1,42 +1,11 @@
 {
-    "width": 1,
-    "height": 3,
-    "points": [
-        [
-            0,
-            2
-        ],
-        [
-            0,
-            2
-        ]
-    ],
-    "csv": "X,Y\n0,2\n0,2",
-    "svg": {
-        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n\n<polyline points=\"0,2 0,2\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n\n<polyline points=\"0,2 0,2\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n<rect width=\"1\" height=\"3\" fill=\"#FFFFFF\" />\n<polyline points=\"0,2 0,2\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n<rect width=\"1\" height=\"3\" fill=\"#000000\" />\n<polyline points=\"0,2 0,2\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n<rect width=\"1\" height=\"3\" fill=\"#000000\" />\n<polyline points=\"0,2 0,2\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
-        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"1\" height=\"3\"\n     viewBox=\"0 0 1 3\">\n<rect width=\"1\" height=\"3\" fill=\"#FFFFFF\" />\n<polyline points=\"0,2 0,2\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
-    },
-    "files": {
-        "png": {
-            "I": "I_A_ud.png",
-            "E": "E_A_ud.png",
-            "O": "O_A_ud.png",
-            "A": "A_A_ud.png",
-            "U": "U_A_ud.png",
-            "V": "V_A_ud.png"
-        },
-        "svg": {
-            "I": "I_A_ud.svg",
-            "E": "E_A_ud.svg",
-            "O": "O_A_ud.svg",
-            "A": "A_A_ud.svg",
-            "U": "U_A_ud.svg",
-            "V": "V_A_ud.svg"
-        },
-        "csv": "A_ud.csv"
-    }
+    "R": "1",
+    "WidthSquares": 1,
+    "HeightSquares": 3,
+    "Points": [
+        {
+            "i": 0,
+            "j": 2
+        }
+    ]
 }

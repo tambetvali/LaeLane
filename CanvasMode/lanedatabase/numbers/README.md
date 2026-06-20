@@ -4,132 +4,108 @@
 
 - Laegna 1: (1, 2)
   - Pixel 1: (0, 4)
-  - Pixel 2: (0, 4)
 ## E / UnsigLae
 
 - Laegna 1: (2, 4)
   - Pixel 1: (0, 3)
-  - Pixel 2: (0, 3)
 ## E / SigDec
 
 - Laegna 1: (1, 2)
   - Pixel 1: (0, 4)
-  - Pixel 2: (0, 4)
 ## E / UnsigDec
 
 - Laegna 1: (2, 4)
   - Pixel 1: (0, 3)
-  - Pixel 2: (0, 3)
 # I (R=0.5)
 
 ## I / SigLae
 
 - Laegna 1: (1, -2)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 ## I / UnsigLae
 
 - Laegna 1: (2, 1)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 ## I / SigDec
 
 - Laegna 1: (1, -2)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 ## I / UnsigDec
 
 - Laegna 1: (2, 1)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 # A (R=1)
 
 ## A / SigLae
 
 - Laegna 1: (1, 1)
   - Pixel 1: (0, 3)
-  - Pixel 2: (0, 3)
 ## A / UnsigLae
 
 - Laegna 1: (2, 3)
   - Pixel 1: (0, 2)
-  - Pixel 2: (0, 2)
 ## A / SigDec
 
 - Laegna 1: (1, 1)
   - Pixel 1: (0, 3)
-  - Pixel 2: (0, 3)
 ## A / UnsigDec
 
 - Laegna 1: (2, 3)
   - Pixel 1: (0, 2)
-  - Pixel 2: (0, 2)
 # O (R=1)
 
 ## O / SigLae
 
 - Laegna 1: (1, -1)
   - Pixel 1: (0, 1)
-  - Pixel 2: (0, 1)
 ## O / UnsigLae
 
 - Laegna 1: (2, 2)
   - Pixel 1: (0, 1)
-  - Pixel 2: (0, 1)
 ## O / SigDec
 
 - Laegna 1: (1, -1)
   - Pixel 1: (0, 1)
-  - Pixel 2: (0, 1)
 ## O / UnsigDec
 
 - Laegna 1: (2, 2)
   - Pixel 1: (0, 1)
-  - Pixel 2: (0, 1)
 # E (R=1)
 
 ## E / SigLae
 
 - Laegna 1: (1, 2)
   - Pixel 1: (0, 4)
-  - Pixel 2: (0, 4)
 ## E / UnsigLae
 
 - Laegna 1: (2, 4)
   - Pixel 1: (0, 3)
-  - Pixel 2: (0, 3)
 ## E / SigDec
 
 - Laegna 1: (1, 2)
   - Pixel 1: (0, 4)
-  - Pixel 2: (0, 4)
 ## E / UnsigDec
 
 - Laegna 1: (2, 4)
   - Pixel 1: (0, 3)
-  - Pixel 2: (0, 3)
 # I (R=1)
 
 ## I / SigLae
 
 - Laegna 1: (1, -2)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 ## I / UnsigLae
 
 - Laegna 1: (2, 1)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 ## I / SigDec
 
 - Laegna 1: (1, -2)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 ## I / UnsigDec
 
 - Laegna 1: (2, 1)
   - Pixel 1: (0, 0)
-  - Pixel 2: (0, 0)
 # OO (R=2)
 
 ## OO / SigLae
