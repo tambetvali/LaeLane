@@ -1,5 +1,4 @@
-# LaeLane — Compact Technical Specification (Option A)
-*(All internal code blocks use escaped fences \`\`\` so this file can be copied as one piece.)*
+# LaeLane — Compact Technical Specification
 
 This document defines the **complete minimal specification** of the LaeLane generation system.  
 It describes the geometry, coordinate rules, connectivity, rendering, and the purpose of the four generator files:
@@ -103,7 +102,7 @@ This ensures **topological correctness** in both PNG and SVG.
 
 Internal algorithm (escaped):
 
-\`\`\`python
+```python
 # Bresenham 8-connected line (conceptual)
 while True:
     set_pixel(x0, y0)
@@ -116,7 +115,7 @@ while True:
     if e2 < dx:
         err += dx
         y0 += sy
-\`\`\`
+```
 
 ---
 
@@ -133,9 +132,9 @@ while True:
 
 Example pixel write (escaped):
 
-\`\`\`python
+```python
 self.px[x, self.height - 1 - y] = (0, 0, 0)
-\`\`\`
+```
 
 ---
 
@@ -160,10 +159,10 @@ $$
 
 Example mapping (escaped):
 
-\`\`\`python
+```python
 sx = round((x - min_x) + 0.5)
 sy = round((y - min_y) + 0.5)
-\`\`\`
+```
 
 ---
 
@@ -180,14 +179,14 @@ JSON stores:
 
 Example JSON entry (escaped):
 
-\`\`\`json
+```json
 {
   "i": 3,
   "j": 7,
   "x_center": 3.5,
   "y_center": 7.5
 }
-\`\`\`
+```
 
 ---
 
@@ -195,17 +194,17 @@ Example JSON entry (escaped):
 
 CSV header:
 
-\`\`\`
+```
 i,j,x_center,y_center
-\`\`\`
+```
 
 Example rows:
 
-\`\`\`
+```
 0,0,0.5,0.5
 1,1,1.5,1.5
 4,2,4.5,2.5
-\`\`\`
+```
 
 Meaning:
 
@@ -226,10 +225,10 @@ Meaning:
 
 Internal extraction example (escaped):
 
-\`\`\`python
+```python
 x = node[axe][sign]["X"]
 y = node[axe][sign]["Y"]
-\`\`\`
+```
 
 ---
 
@@ -258,9 +257,9 @@ y = node[axe][sign]["Y"]
 
 CSV writer example (escaped):
 
-\`\`\`python
+```python
 writer.writerow([i, j, x_center, y_center])
-\`\`\`
+```
 
 ---
 
