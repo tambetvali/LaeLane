@@ -51,26 +51,22 @@ for Rkey, Rdata in data["R"].items():
             json.dump(Ndata, f, indent=4)
 
 
-# exit()
-
 # I am in the middle of the following simplification, now going to eat..
 
 def simpnum(key, val):
     number = {}
     number["Ten"] = {}
     number["Ten"]["Signed"] = {}
-    number["Ten"]["Unsigned"] = {}
+    number["Ten"]["UnSigned"] = {}
     number["Dec"] = {}
-    number["Ten"]["Signed"] = {}
-    number["Ten"]["Unsigned"] = {}
+    number["Dec"]["Signed"] = {}
+    number["Dec"]["UnSigned"] = {}
+
+    print("Value:", val)
 
     for Pkey, Pdata in val.items():
-        print(val)
-
         number["Ten"]["Signed"][Pkey] = {}
-        number["Ten"]["Unsigned"][Pkey] = {}
-        number["Ten"]["Signed"][Pkey] = {}
-        number["Ten"]["Unsigned"][Pkey] = {}
+        number["Ten"]["UnSigned"][Pkey] = {}
 
         print("Val: ", val)
 
@@ -80,14 +76,14 @@ def simpnum(key, val):
         number["Ten"]["UnSigned"][Pkey]["X"] = val["Ten"]["UnSigned"]["X"]
         number["Ten"]["UnSigned"][Pkey]["Y"] = val["Ten"]["UnSigned"]["Y"]
 
+        number["Dec"]["Signed"][Pkey] = {}
+        number["Dec"]["UnSigned"][Pkey] = {}
+
         number["Dec"]["Signed"][Pkey]["X"] = val["Dec"]["Signed"]["X"]
         number["Dec"]["Signed"][Pkey]["Y"] = val["Dec"]["Signed"]["Y"]
 
         number["Dec"]["UnSigned"][Pkey]["X"] = val["Dec"]["UnSigned"]["X"]
         number["Dec"]["UnSigned"][Pkey]["Y"] = val["Dec"]["UnSigned"]["Y"]
-
-        number["Dec"]["Signed"] = {}
-        number["Dec"]["Unsigned"] = {}
 
     return key, number
 
@@ -106,13 +102,19 @@ for Rkey, Rdata in data["R"].items():
 
     simpR = {}
 
+    print("Ndata", Ndata)
+
     for Nkey, Ndata in data["R"][Rkey].items():
-        _, SNdata = simpnum(Nkey, Ndata)
+        print("key/data", Nkey, Ndata)
+
+        Mdata = []
+        for MKey, Mdata in Ndata.items():
+            _, Mdata[MKey] = simpnum(MKey, Ndata[MKey])
 
         with open("lanedatabase/numbers/" + str(Rkey) + "/" + "L" + Nkey + ".json", "w") as f:
-            json.dump(SNdata, f, indent=4)
+            json.dump(Ndata, f, indent=4)
         
-        simpR[NKey] = SNdata
+        simpR[Nkey] = Ndata
 
     if not os.path.exists("lanedatabase/simpRs/" + str(Rkey)):
         os.mkdir("lanedatabase/simpRs/" + str(Rkey))
