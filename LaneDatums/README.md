@@ -1,3 +1,7 @@
+I don't always do my homework: [LaeGNAfantasy123](https://github.com/tambetvali/LaeGNAfantasy123) for example, states that "perhaps I do it this evening", but rather it's a task for the reader for now, altough it might become community work or I might implement the algorithms and a solution as more advanced part of Laegna-Latin coordination layers.
+
+This time, my homework *is* done: this important thing is coded by me, and [Canvas Mode](https://github.com/tambetvali/LaeLane/tree/main/CanvasMode) is where I convert this to multiple formats already with assistance of AI coding and implementation, and create more files and tackled structure.
+
 # [LaneCounterSC5](LaneCounterSC5) - Laegna Lane Database
 
 # Laegna Lane Database
