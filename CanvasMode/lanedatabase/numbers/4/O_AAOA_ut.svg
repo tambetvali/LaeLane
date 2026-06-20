@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="256" height="256"
-     viewBox="0 0 256 256">
-<rect width="256" height="256" fill="#FFFFFF" />
-<polyline points="1,2 3,10 7,41 15,166"
+     width="14" height="256"
+     viewBox="0 0 14 256">
+<rect width="14" height="256" fill="#FFFFFF" />
+<polyline points="2,3 4,11 8,42 16,167"
     fill="none"
     stroke="#000000"
     stroke-width="1"
