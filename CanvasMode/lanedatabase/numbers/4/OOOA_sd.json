@@ -1,0 +1,50 @@
+{
+    "width": 256,
+    "height": 256,
+    "points": [
+        [
+            1,
+            -1
+        ],
+        [
+            2,
+            -5
+        ],
+        [
+            4,
+            -25
+        ],
+        [
+            8,
+            -98
+        ]
+    ],
+    "csv": "X,Y\n1,-1\n2,-5\n4,-25\n8,-98",
+    "svg": {
+        "I": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"256\" height=\"256\"\n     viewBox=\"0 0 256 256\">\n\n<polyline points=\"1,-1 2,-5 4,-25 8,-98\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "E": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"256\" height=\"256\"\n     viewBox=\"0 0 256 256\">\n\n<polyline points=\"1,-1 2,-5 4,-25 8,-98\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "O": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"256\" height=\"256\"\n     viewBox=\"0 0 256 256\">\n<rect width=\"256\" height=\"256\" fill=\"#FFFFFF\" />\n<polyline points=\"1,-1 2,-5 4,-25 8,-98\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "A": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"256\" height=\"256\"\n     viewBox=\"0 0 256 256\">\n<rect width=\"256\" height=\"256\" fill=\"#000000\" />\n<polyline points=\"1,-1 2,-5 4,-25 8,-98\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "U": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"256\" height=\"256\"\n     viewBox=\"0 0 256 256\">\n<rect width=\"256\" height=\"256\" fill=\"#FFFFFF\" />\n<polyline points=\"1,-1 2,-5 4,-25 8,-98\"\n    fill=\"none\"\n    stroke=\"#000000\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>",
+        "V": "<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"256\" height=\"256\"\n     viewBox=\"0 0 256 256\">\n<rect width=\"256\" height=\"256\" fill=\"#000000\" />\n<polyline points=\"1,-1 2,-5 4,-25 8,-98\"\n    fill=\"none\"\n    stroke=\"#FFFFFF\"\n    stroke-width=\"1\"\n    stroke-linejoin=\"miter\"\n    stroke-linecap=\"butt\" />\n</svg>"
+    },
+    "files": {
+        "png": {
+            "I": "I_OOOA_sd.png",
+            "E": "E_OOOA_sd.png",
+            "O": "O_OOOA_sd.png",
+            "A": "A_OOOA_sd.png",
+            "U": "U_OOOA_sd.png",
+            "V": "V_OOOA_sd.png"
+        },
+        "svg": {
+            "I": "I_OOOA_sd.svg",
+            "E": "E_OOOA_sd.svg",
+            "O": "O_OOOA_sd.svg",
+            "A": "A_OOOA_sd.svg",
+            "U": "U_OOOA_sd.svg",
+            "V": "V_OOOA_sd.svg"
+        },
+        "csv": "OOOA_sd.csv"
+    }
+}

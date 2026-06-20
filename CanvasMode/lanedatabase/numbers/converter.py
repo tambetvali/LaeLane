@@ -5,7 +5,7 @@
 import os
 import json
 
-from laepng_client import LaePNG
+from laepng import LaePNG
 from laesvg import LaeSVG
 from laejson import LaeJSON
 
