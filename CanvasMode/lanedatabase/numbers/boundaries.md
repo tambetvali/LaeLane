@@ -3,7 +3,7 @@
 ## R=0.5
 
 - Global width (squares): 1
-- Global height (squares): 4
+- Global height (squares): 5
 
 ### Mode SigLae
 
@@ -12,9 +12,9 @@
 - minY: -2
 - maxY: 2
 - widthSquares: 1
-- heightSquares: 4
+- heightSquares: 5
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigLae
 
@@ -23,9 +23,9 @@
 - minY: 1
 - maxY: 4
 - widthSquares: 1
-- heightSquares: 3
+- heightSquares: 4
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode SigDec
 
@@ -34,9 +34,9 @@
 - minY: -2
 - maxY: 2
 - widthSquares: 1
-- heightSquares: 4
+- heightSquares: 5
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigDec
 
@@ -45,14 +45,14 @@
 - minY: 1
 - maxY: 4
 - widthSquares: 1
-- heightSquares: 3
+- heightSquares: 4
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ## R=1
 
 - Global width (squares): 1
-- Global height (squares): 4
+- Global height (squares): 5
 
 ### Mode SigLae
 
@@ -61,9 +61,9 @@
 - minY: -2
 - maxY: 2
 - widthSquares: 1
-- heightSquares: 4
+- heightSquares: 5
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigLae
 
@@ -72,9 +72,9 @@
 - minY: 1
 - maxY: 4
 - widthSquares: 1
-- heightSquares: 3
+- heightSquares: 4
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode SigDec
 
@@ -83,9 +83,9 @@
 - minY: -2
 - maxY: 2
 - widthSquares: 1
-- heightSquares: 4
+- heightSquares: 5
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigDec
 
@@ -94,14 +94,14 @@
 - minY: 1
 - maxY: 4
 - widthSquares: 1
-- heightSquares: 3
+- heightSquares: 4
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ## R=2
 
-- Global width (squares): 2
-- Global height (squares): 16
+- Global width (squares): 3
+- Global height (squares): 17
 
 ### Mode SigLae
 
@@ -109,10 +109,10 @@
 - maxX: 2
 - minY: -8
 - maxY: 8
-- widthSquares: 1
-- heightSquares: 16
+- widthSquares: 2
+- heightSquares: 17
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigLae
 
@@ -120,10 +120,10 @@
 - maxX: 4
 - minY: 1
 - maxY: 16
-- widthSquares: 2
-- heightSquares: 15
+- widthSquares: 3
+- heightSquares: 16
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode SigDec
 
@@ -131,10 +131,10 @@
 - maxX: 2
 - minY: -8
 - maxY: 8
-- widthSquares: 1
-- heightSquares: 16
+- widthSquares: 2
+- heightSquares: 17
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigDec
 
@@ -142,15 +142,15 @@
 - maxX: 4
 - minY: 1
 - maxY: 16
-- widthSquares: 2
-- heightSquares: 15
+- widthSquares: 3
+- heightSquares: 16
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ## R=3
 
-- Global width (squares): 6
-- Global height (squares): 64
+- Global width (squares): 7
+- Global height (squares): 65
 
 ### Mode SigLae
 
@@ -158,10 +158,10 @@
 - maxX: 4
 - minY: -32
 - maxY: 32
-- widthSquares: 3
-- heightSquares: 64
+- widthSquares: 4
+- heightSquares: 65
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigLae
 
@@ -169,10 +169,10 @@
 - maxX: 8
 - minY: 1
 - maxY: 64
-- widthSquares: 6
-- heightSquares: 63
+- widthSquares: 7
+- heightSquares: 64
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode SigDec
 
@@ -180,10 +180,10 @@
 - maxX: 4
 - minY: -32
 - maxY: 32
-- widthSquares: 3
-- heightSquares: 64
+- widthSquares: 4
+- heightSquares: 65
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigDec
 
@@ -191,15 +191,15 @@
 - maxX: 8
 - minY: 1
 - maxY: 64
-- widthSquares: 6
-- heightSquares: 63
+- widthSquares: 7
+- heightSquares: 64
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ## R=4
 
-- Global width (squares): 14
-- Global height (squares): 256
+- Global width (squares): 15
+- Global height (squares): 257
 
 ### Mode SigLae
 
@@ -207,10 +207,10 @@
 - maxX: 8
 - minY: -128
 - maxY: 128
-- widthSquares: 7
-- heightSquares: 256
+- widthSquares: 8
+- heightSquares: 257
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigLae
 
@@ -218,10 +218,10 @@
 - maxX: 16
 - minY: 1
 - maxY: 256
-- widthSquares: 14
-- heightSquares: 255
+- widthSquares: 15
+- heightSquares: 256
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode SigDec
 
@@ -229,10 +229,10 @@
 - maxX: 8
 - minY: -128
 - maxY: 128
-- widthSquares: 7
-- heightSquares: 256
+- widthSquares: 8
+- heightSquares: 257
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.
 
 ### Mode UnsigDec
 
@@ -240,7 +240,7 @@
 - maxX: 16
 - minY: 1
 - maxY: 256
-- widthSquares: 14
-- heightSquares: 255
+- widthSquares: 15
+- heightSquares: 256
 - projection: [[1,0],[0,1]]
-- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5.
+- explanation: Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels.

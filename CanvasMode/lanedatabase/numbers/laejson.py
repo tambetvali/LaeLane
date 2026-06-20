@@ -24,7 +24,12 @@ class LaeJSON:
             "WidthSquares": self.width,
             "HeightSquares": self.height,
             "Points": [
-                {"i": i, "j": j, "x_center": x_center, "y_center": y_center}
+                {
+                    "i": i,
+                    "j": j,
+                    "x_center": x_center,
+                    "y_center": y_center,
+                }
                 for (i, j, x_center, y_center) in self.points
             ],
         }

@@ -8,7 +8,7 @@
                     "minY": -2,
                     "maxY": 2,
                     "widthSquares": 1,
-                    "heightSquares": 4,
+                    "heightSquares": 5,
                     "projection": [
                         [
                             1,
@@ -19,7 +19,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
                 "UnsigLae": {
                     "minX": 2,
@@ -27,7 +27,7 @@
                     "minY": 1,
                     "maxY": 4,
                     "widthSquares": 1,
-                    "heightSquares": 3,
+                    "heightSquares": 4,
                     "projection": [
                         [
                             1,
@@ -38,13 +38,32 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
                 "SigDec": {
                     "minX": 1,
                     "maxX": 1,
                     "minY": -2,
                     "maxY": 2,
+                    "widthSquares": 1,
+                    "heightSquares": 5,
+                    "projection": [
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
+                },
+                "UnsigDec": {
+                    "minX": 2,
+                    "maxX": 2,
+                    "minY": 1,
+                    "maxY": 4,
                     "widthSquares": 1,
                     "heightSquares": 4,
                     "projection": [
@@ -57,30 +76,11 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
-                },
-                "UnsigDec": {
-                    "minX": 2,
-                    "maxX": 2,
-                    "minY": 1,
-                    "maxY": 4,
-                    "widthSquares": 1,
-                    "heightSquares": 3,
-                    "projection": [
-                        [
-                            1,
-                            0
-                        ],
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 }
             },
             "WidthSquares": 1,
-            "HeightSquares": 4
+            "HeightSquares": 5
         },
         "1": {
             "Modes": {
@@ -90,7 +90,7 @@
                     "minY": -2,
                     "maxY": 2,
                     "widthSquares": 1,
-                    "heightSquares": 4,
+                    "heightSquares": 5,
                     "projection": [
                         [
                             1,
@@ -101,7 +101,7 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
                 "UnsigLae": {
                     "minX": 2,
@@ -109,7 +109,7 @@
                     "minY": 1,
                     "maxY": 4,
                     "widthSquares": 1,
-                    "heightSquares": 3,
+                    "heightSquares": 4,
                     "projection": [
                         [
                             1,
@@ -120,13 +120,32 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
                 "SigDec": {
                     "minX": 1,
                     "maxX": 1,
                     "minY": -2,
                     "maxY": 2,
+                    "widthSquares": 1,
+                    "heightSquares": 5,
+                    "projection": [
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
+                },
+                "UnsigDec": {
+                    "minX": 2,
+                    "maxX": 2,
+                    "minY": 1,
+                    "maxY": 4,
                     "widthSquares": 1,
                     "heightSquares": 4,
                     "projection": [
@@ -139,30 +158,11 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
-                },
-                "UnsigDec": {
-                    "minX": 2,
-                    "maxX": 2,
-                    "minY": 1,
-                    "maxY": 4,
-                    "widthSquares": 1,
-                    "heightSquares": 3,
-                    "projection": [
-                        [
-                            1,
-                            0
-                        ],
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 }
             },
             "WidthSquares": 1,
-            "HeightSquares": 4
+            "HeightSquares": 5
         },
         "2": {
             "Modes": {
@@ -171,8 +171,8 @@
                     "maxX": 2,
                     "minY": -8,
                     "maxY": 8,
-                    "widthSquares": 1,
-                    "heightSquares": 16,
+                    "widthSquares": 2,
+                    "heightSquares": 17,
                     "projection": [
                         [
                             1,
@@ -183,33 +183,14 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
                 "UnsigLae": {
                     "minX": 2,
                     "maxX": 4,
                     "minY": 1,
                     "maxY": 16,
-                    "widthSquares": 2,
-                    "heightSquares": 15,
-                    "projection": [
-                        [
-                            1,
-                            0
-                        ],
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
-                },
-                "SigDec": {
-                    "minX": 1,
-                    "maxX": 2,
-                    "minY": -8,
-                    "maxY": 8,
-                    "widthSquares": 1,
+                    "widthSquares": 3,
                     "heightSquares": 16,
                     "projection": [
                         [
@@ -221,15 +202,15 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
-                "UnsigDec": {
-                    "minX": 2,
-                    "maxX": 4,
-                    "minY": 1,
-                    "maxY": 16,
+                "SigDec": {
+                    "minX": 1,
+                    "maxX": 2,
+                    "minY": -8,
+                    "maxY": 8,
                     "widthSquares": 2,
-                    "heightSquares": 15,
+                    "heightSquares": 17,
                     "projection": [
                         [
                             1,
@@ -240,11 +221,30 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
+                },
+                "UnsigDec": {
+                    "minX": 2,
+                    "maxX": 4,
+                    "minY": 1,
+                    "maxY": 16,
+                    "widthSquares": 3,
+                    "heightSquares": 16,
+                    "projection": [
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 }
             },
-            "WidthSquares": 2,
-            "HeightSquares": 16
+            "WidthSquares": 3,
+            "HeightSquares": 17
         },
         "3": {
             "Modes": {
@@ -253,8 +253,8 @@
                     "maxX": 4,
                     "minY": -32,
                     "maxY": 32,
-                    "widthSquares": 3,
-                    "heightSquares": 64,
+                    "widthSquares": 4,
+                    "heightSquares": 65,
                     "projection": [
                         [
                             1,
@@ -265,33 +265,14 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
                 "UnsigLae": {
                     "minX": 2,
                     "maxX": 8,
                     "minY": 1,
                     "maxY": 64,
-                    "widthSquares": 6,
-                    "heightSquares": 63,
-                    "projection": [
-                        [
-                            1,
-                            0
-                        ],
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
-                },
-                "SigDec": {
-                    "minX": 1,
-                    "maxX": 4,
-                    "minY": -32,
-                    "maxY": 32,
-                    "widthSquares": 3,
+                    "widthSquares": 7,
                     "heightSquares": 64,
                     "projection": [
                         [
@@ -303,15 +284,15 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
-                "UnsigDec": {
-                    "minX": 2,
-                    "maxX": 8,
-                    "minY": 1,
-                    "maxY": 64,
-                    "widthSquares": 6,
-                    "heightSquares": 63,
+                "SigDec": {
+                    "minX": 1,
+                    "maxX": 4,
+                    "minY": -32,
+                    "maxY": 32,
+                    "widthSquares": 4,
+                    "heightSquares": 65,
                     "projection": [
                         [
                             1,
@@ -322,11 +303,30 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
+                },
+                "UnsigDec": {
+                    "minX": 2,
+                    "maxX": 8,
+                    "minY": 1,
+                    "maxY": 64,
+                    "widthSquares": 7,
+                    "heightSquares": 64,
+                    "projection": [
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 }
             },
-            "WidthSquares": 6,
-            "HeightSquares": 64
+            "WidthSquares": 7,
+            "HeightSquares": 65
         },
         "4": {
             "Modes": {
@@ -335,8 +335,8 @@
                     "maxX": 8,
                     "minY": -128,
                     "maxY": 128,
-                    "widthSquares": 7,
-                    "heightSquares": 256,
+                    "widthSquares": 8,
+                    "heightSquares": 257,
                     "projection": [
                         [
                             1,
@@ -347,33 +347,14 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
                 "UnsigLae": {
                     "minX": 2,
                     "maxX": 16,
                     "minY": 1,
                     "maxY": 256,
-                    "widthSquares": 14,
-                    "heightSquares": 255,
-                    "projection": [
-                        [
-                            1,
-                            0
-                        ],
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
-                },
-                "SigDec": {
-                    "minX": 1,
-                    "maxX": 8,
-                    "minY": -128,
-                    "maxY": 128,
-                    "widthSquares": 7,
+                    "widthSquares": 15,
                     "heightSquares": 256,
                     "projection": [
                         [
@@ -385,15 +366,15 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 },
-                "UnsigDec": {
-                    "minX": 2,
-                    "maxX": 16,
-                    "minY": 1,
-                    "maxY": 256,
-                    "widthSquares": 14,
-                    "heightSquares": 255,
+                "SigDec": {
+                    "minX": 1,
+                    "maxX": 8,
+                    "minY": -128,
+                    "maxY": 128,
+                    "widthSquares": 8,
+                    "heightSquares": 257,
                     "projection": [
                         [
                             1,
@@ -404,11 +385,30 @@
                             1
                         ]
                     ],
-                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5."
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
+                },
+                "UnsigDec": {
+                    "minX": 2,
+                    "maxX": 16,
+                    "minY": 1,
+                    "maxY": 256,
+                    "widthSquares": 15,
+                    "heightSquares": 256,
+                    "projection": [
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "explanation": "Per-R+mode shared bounds. Squares are unit length. Pixel index i = x - minX, j = y - minY. Center = x + 0.5, y + 0.5. Canvas size = (max - min) + 1 to include all pixels."
                 }
             },
-            "WidthSquares": 14,
-            "HeightSquares": 256
+            "WidthSquares": 15,
+            "HeightSquares": 257
         }
     }
 }

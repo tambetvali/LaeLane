@@ -65,10 +65,9 @@ def laegna_to_pixel(x: int, y: int, b: dict):
 
 
 def pixel_to_center(i: int, j: int, b: dict):
-    # x = minX + 0.5 + i = x + 0.5
-    # y = minY + 0.5 + j = y + 0.5
-    x = b["minX"] + 0.5 + i
-    y = b["minY"] + 0.5 + j
+    # x_center = x + 0.5, y_center = y + 0.5
+    x = b["minX"] + i + 0.5
+    y = b["minY"] + j + 0.5
     return x, y
 
 
@@ -76,8 +75,8 @@ def compute_boundaries():
     """
     Per-R+mode shared bounds:
     - minX, maxX, minY, maxY from ALL glyphs in that R+mode.
-    - widthSquares = maxX - minX (>=1)
-    - heightSquares = maxY - minY (>=1)
+    - widthSquares  = (maxX - minX) + 1
+    - heightSquares = (maxY - minY) + 1
     """
     boundaries = {"R": {}}
 
@@ -126,8 +125,8 @@ def compute_boundaries():
             min_x, max_x = min(xs), max(xs)
             min_y, max_y = min(ys), max(ys)
 
-            width = max_x - min_x
-            height = max_y - min_y
+            width = (max_x - min_x) + 1
+            height = (max_y - min_y) + 1
             if width <= 0:
                 width = 1
             if height <= 0:
@@ -145,7 +144,8 @@ def compute_boundaries():
                     "Per-R+mode shared bounds. "
                     "Squares are unit length. "
                     "Pixel index i = x - minX, j = y - minY. "
-                    "Center = x + 0.5, y + 0.5."
+                    "Center = x + 0.5, y + 0.5. "
+                    "Canvas size = (max - min) + 1 to include all pixels."
                 ),
             }
 
@@ -245,26 +245,21 @@ def generate_all(boundaries: dict):
                 width = b["widthSquares"]
                 height = b["heightSquares"]
 
-                # PNG: one pixel per square
+                # PNG: one pixel per square, Bresenham connectivity
                 png_name = f"{num}{suffix}.png"
                 png = LaePNG(png_name, r, width, height)
-                for (pi, pj) in pts_pix:
-                    png.add_point(pi, pj)
+                png.draw_polyline(pts_pix)
                 png.save()
 
-                # SVG: true Laegna coordinates, shared per-R+mode bounds
+                # SVG: integer coordinates, Bresenham connectivity
                 svg_name = f"{num}{suffix}.svg"
                 svg = LaeSVG(svg_name, r, width, height, b["minX"], b["minY"])
-                for (pi, pj) in pts_pix:
-                    cx, cy = pixel_to_center(pi, pj, b)
-                    svg.add_point(cx, cy)
-                svg.save()
+                svg.draw_polyline(pts_lae, b)
 
-                # JSON + CSV meta
+                # JSON + CSV: pixel indices + centers
                 json_name = f"{num}{suffix}.json"
                 jj = LaeJSON(json_name, r, width, height)
-                for (pi, pj), (x, y) in zip(pts_pix, pts_lae):
-                    # x_center = x + 0.5, y_center = y + 0.5
+                for (x, y), (pi, pj) in zip(pts_lae, pts_pix):
                     x_center = x + 0.5
                     y_center = y + 0.5
                     jj.add_point(pi, pj, x_center, y_center)
