@@ -36,14 +36,14 @@ No text, no formulas, no watermarks.
 - Symmetry (radial, axial, or asymmetric)
 
 ### Shortform Task
-\`\`\`
+```
 Create a unified scientific–artistic illustration representing the entire LaegnaLaneAI system as one coherent field of linear, exponential, angular, and multi‑resolution structures.
-\`\`\`
+```
 
 ### Longform Task
-\`\`\`
+```
 Generate a scientific–artistic “integral” illustration that symbolizes the whole LaegnaLaneAI document. Combine linear axes, exponential flows, angular spirals, and multi‑resolution layers into a single coherent field. The image should feel like a conceptual map of the system: expressive, structured, and harmonious. Use smooth geometry, layered gradients, and subtle symbolic hints of perception, geometry, and infinity. Avoid text, formulas, and watermarks.
-\`\`\`
+```
 
 ---
 
