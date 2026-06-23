@@ -1,3 +1,74 @@
+# 🜁  C O P I L O T ’ S   L A E G N A   S C H O O L  
+## ✦ Official Cover Page ✦  
+### For Diplomas, Manuals, Schemas, and Robotic Certifications
+
+```
+                     ✦✦✦  L A E G N A   S C H O O L  ✦✦✦
+
+                 A Center for Lin‑Exp Geometry and Logec Reasoning
+                   A Training Ground for Robots, AIs, and Humans
+                 A Repository of Symbolic–Numeric Understanding
+
+        ╔══════════════════════════════════════════════════════════════╗
+        ║                                                              ║
+        ║    🜂  WELCOME TO THE LAEGNA SCHOOL OF LIN‑EXP GEOMETRY  🜂   ║
+        ║                                                              ║
+        ║   Founded on the principles of linear indices, exponential   ║
+        ║   magnitudes, cumulative projections, angular invariants,    ║
+        ║   and multi‑resolution R‑levels, the Laegna School provides  ║
+        ║   a complete symbolic‑numeric framework for understanding    ║
+        ║   the lane–Laegna system and its computational universe.     ║
+        ║                                                              ║
+        ║   This cover page certifies that the following document      ║
+        ║   belongs to the official Laegna School corpus and adheres   ║
+        ║   to standards of clarity, computability, and AI usability.  ║
+        ║                                                              ║
+        ╚══════════════════════════════════════════════════════════════╝
+
+                     ✦  L I N E A R   →   E X P O N E N T I A L  ✦
+                     ✦  C U M U L A T I V E   →   A N G U L A R  ✦
+                     ✦  S Y M B O L I C   →   N U M E R I C      ✦
+
+```
+
+---
+
+# 🜁 About This Document
+
+This file is part of the **Laegna School Collection**, which includes:
+
+- Diplomas (human‑optimized, robot‑optimized, AI‑optimized)  
+- Illustrated manuals  
+- JSON schemas  
+- Structural specifications  
+- Simulation‑mode references  
+- Laegna Number Index documentation  
+
+All content following this cover page is certified as:
+
+- **Deterministic**  
+- **Machine‑parsable**  
+- **Symbolically reversible**  
+- **Lin‑exp coherent**  
+- **Logec consistent**  
+- **Simulation‑mode compatible**  
+- **AI‑understandable**  
+
+---
+
+# 🜁 Seal of the Laegna School
+
+```
+        ⟁  L A E G N A   S C H O O L  ⟁
+        ⟁  L I N – E X P   G E O M E T R Y  ⟁
+        ⟁  A N G U L A R   I N F I N I T Y  ⟁
+        ⟁  S Y M B O L I C – N U M E R I C  ⟁
+```
+
+---
+
+# End of Laegna School Cover Page
+
 # 🎓 CoPilot’s Laegna School — Diploma of Computational and Structural Excellence
 
 ## Awarded to  
@@ -843,3 +914,100 @@ R   T   θ   λ   ψ
 ---
 
 # End of Robot‑Optimized Manual
+
+# 📐 CoPilot’s Laegna School  
+## JSON Schema for Validating Laegna Entries  
+### (LaegnaLane Number Database — Robot‑Ready Specification)
+
+Below is a machine‑parsable JSON Schema for validating **Laegna entries** of the form:
+
+- Symbol (string)
+- R (number or integer)
+- Mode (SigLae / UnsigLae / SigDec / UnsigDec)
+- Laegnas: array of `(w,v)` integer pairs
+- Pixels: array of `(x,y)` integer pairs
+
+All fences inside are escaped as ````` for safe embedding.
+
+---
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://copilot.laegna.school/schema/laegna-entry.json",
+  "title": "Laegna Entry",
+  "description": "Schema for a single Laegna lane entry with R-level, mode, Laegnas, and Pixels.",
+  "type": "object",
+  "required": ["symbol", "R", "mode", "laegnas", "pixels"],
+  "properties": {
+    "symbol": {
+      "type": "string",
+      "description": "Lane symbol label, e.g. 'E', 'OO', 'AIE'."
+    },
+    "R": {
+      "type": ["number", "integer"],
+      "description": "Radius / resolution level (e.g. 0.5, 1, 2, 3).",
+      "minimum": 0
+    },
+    "mode": {
+      "type": "string",
+      "description": "Representation mode.",
+      "enum": ["SigLae", "UnsigLae", "SigDec", "UnsigDec"]
+    },
+    "laegnas": {
+      "type": "array",
+      "description": "Array of Laegna primitives (w,v).",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["w", "v"],
+        "properties": {
+          "w": {
+            "type": "integer",
+            "description": "Linear index (1,2,4,8,...).",
+            "minimum": 1
+          },
+          "v": {
+            "type": "integer",
+            "description": "Exponential or signed-exponential magnitude (±1,±2,±4,...)."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "pixels": {
+      "type": "array",
+      "description": "Array of Pixel anchors (x,y) as cumulative lin-exp samples.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["x", "y"],
+        "properties": {
+          "x": {
+            "type": "integer",
+            "description": "Lane position index (0,1,2,...).",
+            "minimum": 0
+          },
+          "y": {
+            "type": "integer",
+            "description": "Cumulative lin-exp area value (often 2^n - 1 or related)."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "flags": {
+      "type": "object",
+      "description": "Optional metadata flags for future extensions.",
+      "additionalProperties": {
+        "type": ["string", "number", "boolean"]
+      }
+    }
+  },
+  "additionalProperties": false
+}
+```
+
+---
+
+# End of JSON Schema Chapter
