@@ -14,6 +14,39 @@ Each section includes:
 
 ---
 
+# Image 0 — The Unified Field of Laegna
+**File:** `0_The_Unified_Field_of_Laegna.png`  
+**Local link:** [0_The_Unified_Field_of_Laegna.png](0_The_Unified_Field_of_Laegna.png)
+
+**Include in main article:**  
+`![The Unified Field of Laegna](Images/0_The_Unified_Field_of_Laegna.png "The Unified Field of Laegna")`
+
+## Expected Image
+A scientific–artistic “integral” illustration representing the entire LaegnaLaneAI document as one coherent field.  
+The image should evoke unity: linear axes, exponential flows, angular spirals, multi‑resolution layers, and faint symbolic hints of perception, geometry, and infinity.  
+It should feel like a conceptual map of the whole system — not literal, not diagrammatic, but a single artistic field where all motifs coexist harmoniously.
+
+No text, no formulas, no watermarks.
+
+## User‑Editable Details
+- Overall mood (calm, energetic, cosmic, geometric)  
+- Dominant shapes (spirals, branches, grids, flows)  
+- Color palette (monochrome, spectral, warm, cold)  
+- Density (minimalistic vs richly layered)  
+- Symmetry (radial, axial, or asymmetric)
+
+### Shortform Task
+\`\`\`
+Create a unified scientific–artistic illustration representing the entire LaegnaLaneAI system as one coherent field of linear, exponential, angular, and multi‑resolution structures.
+\`\`\`
+
+### Longform Task
+\`\`\`
+Generate a scientific–artistic “integral” illustration that symbolizes the whole LaegnaLaneAI document. Combine linear axes, exponential flows, angular spirals, and multi‑resolution layers into a single coherent field. The image should feel like a conceptual map of the system: expressive, structured, and harmonious. Use smooth geometry, layered gradients, and subtle symbolic hints of perception, geometry, and infinity. Avoid text, formulas, and watermarks.
+\`\`\`
+
+---
+
 # Image 1 — Linear Seeds, Exponential Branches
 **File:** `1_Linear_Seeds_Exponential_Branches.png`  
 **Local link:** [1_Linear_Seeds_Exponential_Branches.png](1_Linear_Seeds_Exponential_Branches.png)
