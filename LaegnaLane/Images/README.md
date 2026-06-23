@@ -5,7 +5,7 @@ Each image description is structured for Creen AI 2.0 to generate consistent, wa
 Each section includes:
 - A scientific–artistic **title**
 - The **filename** and a **relative link**
-- A **copyable include‑line** for the main article (`Images/filename.png`)
+- A **copyable include‑line** for the main article (`Images/filename.jpg`)
 - A safe **expected image** description
 - A **user‑editable** subchapter
 - Two **copyable fenced code blocks**:  
@@ -15,11 +15,13 @@ Each section includes:
 ---
 
 # Image 0 — The Unified Field of Laegna
-**File:** `0_The_Unified_Field_of_Laegna.png`  
-**Local link:** [0_The_Unified_Field_of_Laegna.png](0_The_Unified_Field_of_Laegna.png)
+**File:** `0_The_Unified_Field_of_Laegna.jpg`  
+**Local link:** [0_The_Unified_Field_of_Laegna.jpg](0_The_Unified_Field_of_Laegna.jpg)
+
+![The Unified Field of Laegna](0_The_Unified_Field_of_Laegna.jpg "The Unified Field of Laegna")
 
 **Include in main article:**  
-`![The Unified Field of Laegna](Images/0_The_Unified_Field_of_Laegna.png "The Unified Field of Laegna")`
+`![The Unified Field of Laegna](Images/0_The_Unified_Field_of_Laegna.jpg "The Unified Field of Laegna")`
 
 ## Expected Image
 A scientific–artistic “integral” illustration representing the entire LaegnaLaneAI document as one coherent field.  
@@ -48,11 +50,13 @@ Generate a scientific–artistic “integral” illustration that symbolizes the
 ---
 
 # Image 1 — Linear Seeds, Exponential Branches
-**File:** `1_Linear_Seeds_Exponential_Branches.png`  
-**Local link:** [1_Linear_Seeds_Exponential_Branches.png](1_Linear_Seeds_Exponential_Branches.png)
+**File:** `1_Linear_Seeds_Exponential_Branches.jpg`  
+**Local link:** [1_Linear_Seeds_Exponential_Branches.jpg](1_Linear_Seeds_Exponential_Branches.jpg)
+
+![Linear Seeds, Exponential Branches](1_Linear_Seeds_Exponential_Branches.jpg "Linear Seeds, Exponential Branches")
 
 **Include in main article:**  
-`![Linear Seeds, Exponential Branches](Images/1_Linear_Seeds_Exponential_Branches.png "Linear Seeds, Exponential Branches")`
+`![Linear Seeds, Exponential Branches](Images/1_Linear_Seeds_Exponential_Branches.jpg "Linear Seeds, Exponential Branches")`
 
 ## Expected Image
 A scientific–artistic visualization of a straight lane or axis with small linear “seed” points that expand into branching exponential curves. No text, no formulas, no watermarks.
@@ -77,11 +81,13 @@ Generate a scientific–artistic illustration representing the transformation fr
 ---
 
 # Image 2 — Mind of the Machine
-**File:** `2_Mind_of_the_Machine.png`  
-**Local link:** [2_Mind_of_the_Machine.png](2_Mind_of_the_Machine.png)
+**File:** `2_Mind_of_the_Machine.jpg`  
+**Local link:** [2_Mind_of_the_Machine.jpg](2_Mind_of_the_Machine.jpg)
+
+![Mind of the Machine](2_Mind_of_the_Machine.jpg "Mind of the Machine")
 
 **Include in main article:**  
-`![Mind of the Machine](Images/2_Mind_of_the_Machine.png "Mind of the Machine")`
+`![Mind of the Machine](Images/2_Mind_of_the_Machine.jpg "Mind of the Machine")`
 
 ## Expected Image
 An abstract scientific depiction of an AI “perceiving” structured patterns: neural‑like flows, geometric motifs, and faint lane‑like structures emerging from noise.
@@ -105,11 +111,13 @@ Create a scientific–artistic visualization of an AI perceiving structured patt
 ---
 
 # Image 3 — Skeleton of the Database
-**File:** `3_Skeleton_of_the_Database.png`  
-**Local link:** [3_Skeleton_of_the_Database.png](3_Skeleton_of_the_Database.png)
+**File:** `3_Skeleton_of_the_Database.jpg`  
+**Local link:** [3_Skeleton_of_the_Database.jpg](3_Skeleton_of_the_Database.jpg)
+
+![Skeleton of the Database](3_Skeleton_of_the_Database.jpg "Skeleton of the Database")
 
 **Include in main article:**  
-`![Skeleton of the Database](Images/3_Skeleton_of_the_Database.png "Skeleton of the Database")`
+`![Skeleton of the Database](Images/3_Skeleton_of_the_Database.jpg "Skeleton of the Database")`
 
 ## Expected Image
 A clean geometric composition showing a “skeleton” of repeated patterns: paired coordinates, branching structures, and layered grids suggesting the disciplined structure of the lane database.
@@ -132,11 +140,13 @@ Generate an artistic scientific image showing the internal skeleton of a structu
 ---
 
 # Image 4 — Algebra of the Chains
-**File:** `4_Algebra_of_the_Chains.png`  
-**Local link:** [4_Algebra_of_the_Chains.png](4_Algebra_of_the_Chains.png)
+**File:** `4_Algebra_of_the_Chains.jpg`  
+**Local link:** [4_Algebra_of_the_Chains.jpg](4_Algebra_of_the_Chains.jpg)
+
+![Algebra of the Chains](4_Algebra_of_the_Chains.jpg "Algebra of the Chains")
 
 **Include in main article:**  
-`![Algebra of the Chains](Images/4_Algebra_of_the_Chains.png "Algebra of the Chains")`
+`![Algebra of the Chains](Images/4_Algebra_of_the_Chains.jpg "Algebra of the Chains")`
 
 ## Expected Image
 An artistic representation of mathematical chains: layered exponential curves, interlocking segments, and a sense of compositional rules forming a coherent whole.
@@ -159,11 +169,13 @@ Create a scientific–artistic visualization of exponential chains combining int
 ---
 
 # Image 5 — Machines on the Road
-**File:** `5_Machines_on_the_Road.png`  
-**Local link:** [5_Machines_on_the_Road.png](5_Machines_on_the_Road.png)
+**File:** `5_Machines_on_the_Road.jpg`  
+**Local link:** [5_Machines_on_the_Road.jpg](5_Machines_on_the_Road.jpg)
+
+![Machines on the Road](5_Machines_on_the_Road.jpg "Machines on the Road")
 
 **Include in main article:**  
-`![Machines on the Road](Images/5_Machines_on_the_Road.png "Machines on the Road")`
+`![Machines on the Road](Images/5_Machines_on_the_Road.jpg "Machines on the Road")`
 
 ## Expected Image
 A conceptual scene where abstract machines or sensors interact with lane‑like structures. Not literal cars — more symbolic: geometric devices, sensing rays, or abstract agents reading lane geometry.
@@ -186,11 +198,13 @@ Generate an artistic scientific illustration of abstract machines or sensing age
 ---
 
 # Image 6 — Horizon of the Ecosystem
-**File:** `6_Horizon_of_the_Ecosystem.png`  
-**Local link:** [6_Horizon_of_the_Ecosystem.png](6_Horizon_of_the_Ecosystem.png)
+**File:** `6_Horizon_of_the_Ecosystem.jpg`  
+**Local link:** [6_Horizon_of_the_Ecosystem.jpg](6_Horizon_of_the_Ecosystem.jpg)
+
+![Horizon of the Ecosystem](6_Horizon_of_the_Ecosystem.jpg "Horizon of the Ecosystem")
 
 **Include in main article:**  
-`![Horizon of the Ecosystem](Images/6_Horizon_of_the_Ecosystem.png "Horizon of the Ecosystem")`
+`![Horizon of the Ecosystem](Images/6_Horizon_of_the_Ecosystem.jpg "Horizon of the Ecosystem")`
 
 ## Expected Image
 A wide, layered composition suggesting a roadmap or horizon: branching structures, multi‑resolution layers, and a sense of forward expansion into a larger ecosystem.
@@ -213,11 +227,13 @@ Create a wide, layered illustration symbolizing the expansion of a lane ecosyste
 ---
 
 # Image 7 — Echoes of Classical Geometry
-**File:** `7_Echoes_of_Classical_Geometry.png`  
-**Local link:** [7_Echoes_of_Classical_Geometry.png](7_Echoes_of_Classical_Geometry.png)
+**File:** `7_Echoes_of_Classical_Geometry.jpg`  
+**Local link:** [7_Echoes_of_Classical_Geometry.jpg](7_Echoes_of_Classical_Geometry.jpg)
+
+![Echoes of Classical Geometry](7_Echoes_of_Classical_Geometry.jpg "Echoes of Classical Geometry")
 
 **Include in main article:**  
-`![Echoes of Classical Geometry](Images/7_Echoes_of_Classical_Geometry.png "Echoes of Classical Geometry")`
+`![Echoes of Classical Geometry](Images/7_Echoes_of_Classical_Geometry.jpg "Echoes of Classical Geometry")`
 
 ## Expected Image
 A fusion of classical geometric motifs — conics, grids, waveforms — blending into lane‑like structures. The image should feel like mathematics echoing into modern form.
@@ -240,11 +256,13 @@ Generate an illustration merging classical geometry (conics, grids, waveforms) w
 ---
 
 # Image 8 — The Angular Infinity
-**File:** `8_The_Angular_Infinity.png`  
-**Local link:** [8_The_Angular_Infinity.png](8_The_Angular_Infinity.png)
+**File:** `8_The_Angular_Infinity.jpg`  
+**Local link:** [8_The_Angular_Infinity.jpg](8_The_Angular_Infinity.jpg)
+
+![The Angular Infinity](8_The_Angular_Infinity.jpg "The Angular Infinity")
 
 **Include in main article:**  
-`![The Angular Infinity](Images/8_The_Angular_Infinity.png "The Angular Infinity")`
+`![The Angular Infinity](Images/8_The_Angular_Infinity.jpg "The Angular Infinity")`
 
 ## Expected Image
 A scientific–artistic depiction of angular infinity: a circular or spiral structure with exponential outward collapse and stable angular density.
