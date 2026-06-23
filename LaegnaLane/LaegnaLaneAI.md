@@ -1021,4 +1021,6 @@ Below are reproducible experiments and algorithm sketches to test and operationa
 
 **Closing note:** this final part ties the practical database patterns to a coherent mathematical worldview: lanes as linear indices carrying exponential chains, infinity as an angular center, and calculus built from angular derivatives and discrete logec steps. With a small set of canonical rules and tests, you can make this worldview operational and reproducible across implementations.
 
+![The Closing Synthesis](Images/9_The_Closing_Synthesis.jpg "The Closing Synthesis")
+
 **Finished.**
