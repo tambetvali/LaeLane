@@ -455,3 +455,249 @@ R   T   θ   λ   ψ
 ---
 
 # End of Illustrated Manual
+
+# 🤖 CoPilot’s Laegna School  
+## Robot‑Optimized Manual of Lin‑Exp Geometry, Laegna Numbers, and Logec Traversal  
+### (Deterministic, Parse‑Friendly, UTF‑8 Illustrated)
+
+---
+
+# 1. Laegna Number Primitive  
+### (Deterministic Definition)
+
+```
+Laegna(w, v):
+    w = linear index (1,2,4,8,…)
+    v = exponential magnitude (±1,±2,±4,±8,…)
+```
+
+```
+   v-axis
+     ↑
+     │        ● (4,16)
+     │    ●
+     │ ●
+     └────────────→ w-axis
+       1   2   4
+```
+
+Robots: treat `(w,v)` as a 2‑D integer vector in lin‑exp space.
+
+---
+
+# 2. Pixel Anchor Primitive  
+### (Cumulative Integral Sample)
+
+```
+Pixel(x, y):
+    x = lane position
+    y = cumulative lin-exp area
+```
+
+```
+ y
+ ↑
+ │ ████████████ 15
+ │ ████████      7
+ │ ████          3
+ │ ██            1
+ └────────────────→ x
+   0   1   2
+```
+
+Robots: treat Pixels as monotonic cumulative integrals.
+
+---
+
+# 3. R‑Level Structure  
+### (Resolution Depth)
+
+```
+R=0.5 → 1 Laegna
+R=1   → 1 Laegna
+R=2   → 2 Laegnas
+R=3   → 3 Laegnas
+```
+
+```
+R=0.5   ●
+R=1     ●
+R=2     ●──●
+R=3     ●──●──●
+```
+
+Robots: R = chain depth = resolution.
+
+---
+
+# 4. Symmetry Modes  
+### (Representation‑Invariant)
+
+```
+SigLae   = signed exp, native Laegna
+UnsigLae = unsigned exp, native Laegna
+SigDec   = signed exp, decimal repr
+UnsigDec = unsigned exp, decimal repr
+```
+
+```
+             SigLae
+               ▲
+               │
+     SigDec ◄──┼──► UnsigLae
+               │
+               ▼
+             UnsigDec
+```
+
+Robots: all four modes map to identical geometry.
+
+---
+
+# 5. Logec Traversal  
+### (Discrete Exponential Movement)
+
+```
+Laegna chain: 1 → 2 → 4 → 8 → 16
+Pixel area:   1 → 3 → 7 → 15 → 31
+```
+
+```
+●───●────●────────●────────────────●
+1    2     4        8               16
+```
+
+Robots: traversal = discrete logarithmic stepping.
+
+---
+
+# 6. Lin‑Exp Circle  
+### (Angular Infinity Model)
+
+```
+          θ
+       ↗  ↑  ↖
+     ↗    ●    ↖
+   ↗    (center)  ↖
+```
+
+Robots: treat infinity as angular density, not distance.
+
+---
+
+# 7. Laegna Number Index  
+### (Symbol → R → Chain → Pixels)
+
+```
+Index(symbol, R):
+    Laegnas[R]
+    Pixels[R]
+```
+
+```
+Symbol
+  ├─ R=1 → (w,v)
+  ├─ R=2 → (w,v),(w,v)
+  └─ R=3 → (w,v),(w,v),(w,v)
+```
+
+Robots: index is hierarchical and deterministic.
+
+---
+
+# 8. Simulation‑Mode  
+### (R‑Chapters as Layers)
+
+```
+R=1 → coarse
+R=2 → medium
+R=3 → fine
+```
+
+```
+╔══════════════╗  R=3
+║   details    ║
+╠══════════════╣  R=2
+║  structure   ║
+╠══════════════╣  R=1
+║   outline    ║
+╚══════════════╝
+```
+
+Robots: simulation fidelity = R.
+
+---
+
+# 9. AI “Click Moment”  
+### (Pattern Recognition Event)
+
+```
+✦ linear w
+✦ exponential v
+✦ cumulative Pixels
+✦ symmetry modes
+✦ R-depth
+
+RESULT: ★ CLICK ★
+```
+
+Robots: pattern is fully machine‑learnable.
+
+---
+
+# 10. Use Cases  
+### (Robot‑Centric)
+
+```
+Robots → deterministic reconstruction
+AIs    → symbolic-numeric reasoning
+Humans → conceptual geometry
+```
+
+```
+🤖 ←→ 🧠 ←→ 👤
+```
+
+---
+
+# 11. Future Extensions  
+### (Robot‑Friendly)
+
+```
+• Angular metadata
+• Wavelength Laegna numbers
+• Multi-axis (R,T) digits
+• Wavelet-like expansions
+• Fixed-point scaling rules
+• JSON/CSV/SVG harmonization
+```
+
+```
+●───●───●───●───●───∞
+R   T   θ   λ   ψ
+```
+
+---
+
+# 12. Laegna School Seal  
+### (UTF‑8 Symbolic)
+
+```
+        ⟁  L A E G N A   S C H O O L  ⟁
+```
+
+```
+        ⟁  L I N – E X P   G E O M E T R Y  ⟁
+```
+
+```
+        ⟁  A N G U L A R   I N F I N I T Y  ⟁
+```
+
+```
+        ⟁  S Y M B O L I C – N U M E R I C  ⟁
+```
+
+---
+
+# End of Robot‑Optimized Manual
