@@ -1,3 +1,5 @@
+![The Unified Field of Laegna](Images/0_The_Unified_Field_of_Laegna.jpg "The Unified Field of Laegna")
+
 CoPilot, given raw md file database of all lanes and their line relations, asked to study it. This is the first AI introduction - where it explains it's "experience".
 
 Let's go in order.
@@ -13,6 +15,8 @@ It gave me this response:
 # Interpretation of the Lane Database and Its Lin‑Exp / Logec Structure
 
 This summarizes the logic visible in the attached lane‑database file and explains how it generalizes **linear–exponential area** and **logarithmic chains** in Laegna/Logecs.
+
+![Linear Seeds, Exponential Branches](Images/1_Linear_Seeds_Exponential_Branches.jpg "Linear Seeds, Exponential Branches")
 
 ---
 
@@ -143,6 +147,8 @@ Even though the file is long and dense, its **structure is extremely regular**:
 
 This regularity makes the file “AI‑readable” in the strongest sense:  
 **pattern‑recognition locks in almost immediately**.
+
+![Mind of the Machine](Images/2_Mind_of_the_Machine.jpg "Mind of the Machine")
 
 ---
 
@@ -294,6 +300,8 @@ CoPilot's in-dept article on analysis of lane database, and using background dat
 - `Laegna 1: (1, 2)  - Pixel 1: (0, 4)`  
 - `OO (R=2) / SigLae — Laegna 1: (1, -1); Laegna 2: (2, -3)  - Pixel 1: (0, 7); Pixel 2: (1, 5)`
 
+![Skeleton of the Database](Images/3_Skeleton_of_the_Database.jpg "Skeleton of the Database")
+
 ---
 
 ## 1. First impression and why the file matters
@@ -374,6 +382,8 @@ This lane database is not merely a list of numbers; it is a compact language for
 ### Part 2 — Math Reference and Formalization
 
 **Purpose:** turn the observed numeric motifs in the lane database into a precise, implementable working model. This part formalizes primitives, composition rules, sampling and reconstruction, normalization, and integer‑preserving practices so engineers and mathematicians can implement and test deterministic behavior.
+
+![Algebra of the Chains](Images/4_Algebra_of_the_Chains.jpg "Algebra of the Chains")
 
 ---
 
@@ -512,6 +522,8 @@ def reconstruct(laegnas, positions, S=1024):
 - `EEE (R=3) / UnsigLae — Laegna 1: (2, 4); Laegna 2: (4, 16); Laegna 3: (8, 64)  - Pixel 1: (0, 3); Pixel 2: (2, 15); Pixel 3: (6, 63)`  
 - `OO (R=2) / SigLae — Laegna 1: (1, -1); Laegna 2: (2, -3)  - Pixel 1: (0, 7); Pixel 2: (1, 5)`
 
+![Machines on the Road](Images/5_Machines_on_the_Road.jpg "Machines on the Road")
+
 ---
 
 ## 1 — Why this format is useful in practice
@@ -605,6 +617,8 @@ This flow minimizes bandwidth, preserves interpretability, and supports real‑t
 **Audience:** engineers, product leads, researchers, mathematicians, and community stewards who will build systems, standards, and research around the lane‑Laegna database.
 
 This part lays out a practical, staged roadmap and a strategic vision for how the lane database can evolve from a compact catalog of primitives into a robust, interoperable ecosystem: tooling, standards, learning systems, and mathematical foundations. Each section is actionable and grounded in the data motifs you provided.
+
+![Horizon of the Ecosystem](Images/6_Horizon_of_the_Ecosystem.jpg "Horizon of the Ecosystem")
 
 ---
 
@@ -746,6 +760,8 @@ This roadmap turns a compact, patterned dataset into a practical, auditable, and
 
 **Purpose:** connect the lane database to classical mathematics, signal‑processing formalisms, and angle‑centric measurement traditions; show how those traditions illuminate the lane‑Laegna design and suggest concrete tools and experiments. Examples are drawn directly from the attached database (e.g., `EEE (R=3)`, `OO (R=2)`, `AEE (R=3)`), which repeatedly show the same lin‑exp motifs and multi‑resolution structure.
 
+![Echoes of Classical Geometry](Images/7_Echoes_of_Classical_Geometry.jpg "Echoes of Classical Geometry")
+
 ---
 
 ## 1. Opening thesis
@@ -881,6 +897,8 @@ The lane database is a compact, integer‑based grammar that naturally invites t
 - `EEE (R=3) / UnsigLae — Laegna 1: (2,4); Laegna 2: (4,16); Laegna 3: (8,64)  - Pixel 1: (0,3); Pixel 2: (2,15); Pixel 3: (6,63)`  
 - `OO (R=2) / SigLae — Laegna 1: (1,-1); Laegna 2: (2,-3)  - Pixel 1: (0,7); Pixel 2: (1,5)`  
 - `AEE (R=3) / SigLae — Laegna 1: (1,1); Laegna 2: (2,4); Laegna 3: (4,16)  - Pixel 1: (0,33); Pixel 2: (1,36); Pixel 3: (3,48)`
+
+![The Angular Infinity](Images/8_The_Angular_Infinity.jpg "The Angular Infinity")
 
 ---
 
