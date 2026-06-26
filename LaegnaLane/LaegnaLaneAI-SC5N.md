@@ -8,7 +8,7 @@ Let's go in order.
 
 # First AI response.
 
-I gave it the md lane database all at once - ["Lanes.md"](https://github.com/tambetvali/LaeLane/blob/main/CanvasMode/lanedatabase/numbers/README.md).
+I gave it the md lane database all at once - ["lanes.json"](https://github.com/tambetvali/LaeGOS-Drivers-LaeAutomate/blob/main/gosdb/lanes.json) + [canvas.json](https://raw.githubusercontent.com/tambetvali/LaeGOS-Drivers-LaeAutomate/refs/heads/main/gosdb/canvas.json).
 
 It gave me this response:
 
