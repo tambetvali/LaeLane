@@ -1,3 +1,15 @@
+Notice:
+- The perspective view used in SC5, on which this "CanvasMode" is produced, is different from:
+  - Automatable logic used in https://github.com/tambetvali/LaeGOS-Drivers-LaeAutomate,
+    - #### [gosdb](https://github.com/tambetvali/LaeGOS-Drivers-LaeAutomate/tree/main/gosdb)
+    - ##### [gosdb-small](https://github.com/tambetvali/LaeGOS-Drivers-LaeAutomate/tree/main/gosdb-small)
+    - ###### [gosdb-mini](https://github.com/tambetvali/LaeGOS-Drivers-LaeAutomate/tree/main/gosdb-mini)
+    - Warning: altough small and mini do not count all numbers, they still contain the R indeces. System caches this, but I don't want to clean this cache right now.
+
+GOSDB - this is *normalized*, square-shaped version which reminds my Laegna abstract thinking, balanced local and global reasoning.
+
+CanvasMode - this is *more natural*, reflecting the start-from-linear (initial part is more linear, and it also emphasizes the exponent more - having the second, normalized SC5 means much more logical thinking, because SC5 is very natural and meets my constraints on shapes, to understand it deeply, but CS5N is much more automatable and analyzable; if you can compare them to intent in SC5, you could understand much of how it could be used).
+
 # Canvas mode
 
 This folder contains bigger selection of Laegna Lane drawings and many database items, which replicate, simplify or divide the main json files into specific files for each number:
