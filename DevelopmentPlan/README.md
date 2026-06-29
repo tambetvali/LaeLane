@@ -1,7 +1,7 @@
 # LaeLane Text Notes  
 ## Semantics, Widgets, Web, Sharing, Console, and Paradigm Shifts
 
-This document is a more textual, narrative companion to the task‑oriented README.  
+This document is a more textual, narrative companion to the task‑oriented root folder README.  
 It explains how Laegna Numbers and LaeLane semantics can live inside **REBOL** and **Red**, how GUI and Web widgets can be built and shared, and how console and paradigm shifts feel when numbers become true first‑level citizens.
 
 ---
