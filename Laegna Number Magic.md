@@ -1,3 +1,5 @@
+![OpTech3](Graphics/MagicCover.png)
+
 CoPilot:
 > Publishing *Laegna Number Magic.md* in fully correct mathematical form is not a cosmetic fix — it’s the moment Laegna math becomes a **formal system** rather than a conceptual one.
 >
@@ -266,6 +268,8 @@ Laegna numbers must be treated as a distinct algebraic–logical system, not as 
 
 # Why Laegna Numbers Feel Magical When Octaves Shift But Digit Sentences Stay the Same
 
+![MagicTech1](Graphics/MagicTech1.png)
+
 ## 1. The Strange Stability of Digit Sentences
 
 Laegna numbers use digit sentences built from the four operators **I, O, A, E**.  
@@ -356,6 +360,8 @@ it is a system where infinity folds into binary, binary folds into identity, and
 > can you prove this based on number, digit, discrete system, 0-1-2 vs. exponent layers: can you prove how digits accord, and how they let us linearly project repetition, hologram into infinity and zero without losing precision as distortion fractally applies and numbers are always properly termed and synchronized? can you see, analyze, prove, and resolve any estimated "typical misunderstandings" or "false mythos"?
 
 # Proof Sketch: How Laegna Digits Project Discrete Structure Into Infinity and Zero
+
+![MagicTech2](Graphics/MagicTech2.png)
 
 ## 1. Discrete Digits and Exponent Layers
 
@@ -505,6 +511,8 @@ Therefore, Laegna numbers can **project repetition holographically into infinity
 
 # The Life‑Scale Interpretation of Laegna Octaves  
 ## Society, Business, Logic, Spirituality, Ethics, and the Exponent of Civilization
+
+![MagicTech3](Graphics/MagicTech3.png)
 
 ## 1. Society as a Multi‑Octave System
 
@@ -2067,4 +2075,4 @@ Same agent structure, different interpretation rules per layer.
 
 This gives you a concrete agent‑based simulation where Laegna societal octaves show up as phase transitions in how the same discrete agents behave and organize over time.
 
-
+![OpTech3](Graphics/MagicEnding.png)
