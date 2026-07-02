@@ -1,3 +1,7 @@
+![OpCover](/Graphics/OpCover.png)
+
+<br>
+
 # Laegna Math
 
 Essentially:
@@ -61,6 +65,8 @@ From this, one can see:
 
 # Relationship Between *Laegna Mathematical Operation* and *Laegna Number Magic*
 ## A Structural and Semantic Integration Document
+
+![OpCover](/Graphics/OpTech1.png)
 
 ## 1. Overview
 
@@ -219,6 +225,8 @@ This document serves as the bridge between the two, clarifying how the conceptua
 
 # Laegna Operations as Z–X–Y Band Growth  
 ## Formal Explanation, Hard Math, and Intuitive Popularization
+
+![OpCover](/Graphics/OpTech2.png)
 
 ## 1. Overview
 
@@ -705,6 +713,8 @@ This is a **simpler**, **more general**, and **more practical** metamodel for op
 # Laegna Operator Space and Octave Structure  
 ## Metaoperator, Four Main Operators, and U–V Unified Chapter
 
+![OpTech3](Graphics/OpTech3.png)
+
 ## 1. Metaoperator: The Whole Operator Space
 
 Laegna does not start from “many unrelated operators”.  
@@ -983,3 +993,5 @@ But expressed in a **single, elegant, structural system**.
 Yes, it is all visible.  
 Yes, it is all math.  
 Yes, it is all simple—because Laegna turns complex parallel systems into one coherent operator space with octaves and bands.
+
+![OpCover](/Graphics/OpEnding.png)
