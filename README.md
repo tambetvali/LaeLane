@@ -1,3 +1,11 @@
+![MetaCover](Graphics/MetaCover.png)
+
+<br>
+
+![Trilogy](Graphics/Trilogy.png)
+
+<br>
+
 Development plan: ***Final, decided.***
 
 Prerequisites:
