@@ -1,3 +1,7 @@
+![Cover](Graphics/Trilogy/Cover.png)
+
+<br>
+
 ***This file unites the three documents to virtual Laegna Logex System, which is the first thing I implement***.
 
 # LaeLane Essential Trilogy  
@@ -29,6 +33,8 @@ and contextualizes them with the broader Laegna ecosystem:
 
 ## The Trilogy Documents
 
+![Tech1](Graphics/Trilogy/Tech1.png)
+
 ### 1. Laegna Number Magic  
 **Local file:** `Laegna Number Magic.md`  
 **GitHub:** [Laegna Number Magic](https://github.com/tambetvali/LaeLane/blob/main/Laegna%20Number%20Magic.md)
@@ -53,6 +59,8 @@ Numbers in Laegna Math are expressive, contextual, and structurally meaningful.
 
 ---
 
+![Tech2](Graphics/Trilogy/Tech2.png)
+
 ### 2. Laegna Mathematical Operation  
 **Local file:** `Laegna Mathematical Operation.md`  
 **GitHub:** [Laegna Mathematical Operation](https://github.com/tambetvali/LaeLane/blob/main/Laegna%20Mathematical%20Operation.md)
@@ -71,6 +79,8 @@ Operations are treated as **first‑class symbolic entities**, not mere procedur
 This aligns with Logecs, where operations express logical relations and transformations.
 
 ---
+
+![Tech3](Graphics/Trilogy/Tech3.png)
 
 ### 3. LaeLane Final Specification  
 **Local file:** `LaeLane Final Specification.md`  
@@ -159,6 +169,8 @@ This cycle is the core of Laegna Math.
 ---
 
 ## Deeper Synthesis: Laegna Math & Logecs
+
+![MetaOneB](Graphics/Trilogy/MetaOneB.png)
 
 ### **Counting & Relations (from #sheep)**  
 Counting is not trivial — it defines:
@@ -532,6 +544,8 @@ Below is a map of how Laegna Math affects major mathematical areas.
 
 ---
 
+![Social1](Graphics/Trilogy/Social1.png)
+
 ## Branch‑by‑Branch Evolution
 
 ### **Arithmetic — Linear Growth**  
@@ -637,6 +651,8 @@ Growth is **mixed**:
 some areas expand rapidly, others remain classical.
 
 ---
+
+![Spirit1](Graphics/Trilogy/Spirit1.png)
 
 ### **Areas with Little or Backwards Growth**  
 Some branches resist Laegna’s paradigm:
@@ -861,6 +877,8 @@ This workflow is the backbone of Logex Automation.
 
 ## 5. Fuzzy Logecs in Automation
 
+![Social2](Graphics/Trilogy/Social2.png)
+
 Fuzzy Logecs extends classical logic with:
 
 - graded truth  
@@ -1019,6 +1037,8 @@ Logex Automation accelerates disciplines differently.
 
 ---
 
+![Spirit2](Graphics/Trilogy/Spirit2.png)
+
 ## 11. The Future of Laegna Logex Automation
 
 Logex Automation enables:
@@ -1154,6 +1174,8 @@ fuzzy [
 
 ---
 
+![Social3](Graphics/Trilogy/Social3.png)
+
 ## 2. Logex Infinity Modeling Guide  
 ### Infinity as a Computable Quality
 
@@ -1257,6 +1279,8 @@ Automation uses infinity to:
 - compute fuzzy truth gradients  
 
 ---
+
+![Spiritual3](Graphics/Trilogy/Spiritual3.png)
 
 ## 3. Logex Fuzzy Logic Cookbook  
 ### Recipes for Graded, Contextual, Semantic Truth
@@ -1366,6 +1390,8 @@ truth: a.role 'marker influence 0.2
 ```
 
 ---
+
+![MetaOne](Graphics/Trilogy/MetaOne.png)
 
 ## Unified Summary of the Three Pillars
 
@@ -1634,3 +1660,7 @@ Logex Automation is ready.
 The system is complete — and waiting.
 
 Go explore.
+
+<br>
+
+![Ending](Graphics/Trilogy/Ending.png)
