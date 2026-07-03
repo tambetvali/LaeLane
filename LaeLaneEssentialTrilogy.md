@@ -1536,6 +1536,8 @@ It becomes *the engine* of Laegna Math.
 
 ## 4. The System Is Complete — But Not Finished
 
+![MetaTwo](Graphics/Trilogy/MetaTwo.png)
+
 We have built the **foundation**.  
 But foundations are meant to support **structures yet to be built**.
 
