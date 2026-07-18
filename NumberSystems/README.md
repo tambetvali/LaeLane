@@ -13,4 +13,6 @@ Where I and E are basically exponents (log=>exp zone):
 
 # Parallel IOAE
 
+In parallel view, each letter selects from both axes X and Y, and E for example is + on both axes, I is - on both axes, O and A are neutral - different sign on both.
+
 ![Parallel IOAE](ParallelIOAE.jpg)
