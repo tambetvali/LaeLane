@@ -80,3 +80,11 @@ This is backbone of Laegna language:
   - We have "distance", "closeness", "truth" etc., but not "bread", "milk", "run" directly in first-order math and it's straight vocabulary.
 - Other laegna symbols are defined rather psychologically:
   - Harmony, paradox etc. are *harder to pinpoint in straight math* - I left them out from this number representation, where I tried to show essential dispositions and useful meanings which are very harmonic to complex, linear and exponent realms and if used as constants for such operations and values - with Laegna numeric values, the models play very well.
+
+# Empty digit, R=0, zero-digit number
+
+In Laegna, empty digit and zero digit number are either absolute zero or ultimate probability; on image empty digit is in the middle, as well as I could draw it (you could represent it with "_", empty digit, or white filled circle with black fat border in the middle of digit; here I represent it as-is, with the arrows representing a balanced set of it's possible directions).
+
+Processing in machine, digits can be in mathematical number order of magnitude, or same order of logical consistences (higher bit above lower), but in each case, the digit can be left unprocessed, and if they are expected somewhere existing values or unknowns can fill their space; this image represents to remember this:
+
+![EmptyDigit](EmptyDigit.png)
