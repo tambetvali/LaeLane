@@ -64,3 +64,13 @@ Well I want to give the unknown table to you anyway even here, as bonus, altough
 4 letters of StaDesc, Laegna probability theory (digits are 1:1 unknowns and knowns on both 2 channels of laegna numbers, and their averages yield boundary values in other interpretation, while it can be mathematically projected between two systems):
 
 ![Probably](Probably.png)
+
+<br>
+
+Notice: V is the negative distance, opposite to M; W is the neutralized-negative distance, opposite of N (closeness). U and S are temporal and spatial unknowns, while upside-down-U is non-theorem, infinite openness and void, while T is theorem, infinite closeness and known. One can see this much in their shapes as well.
+
+This is backbone of Laegna language:
+- These symbols convey what can be put to primitive math;
+  - We have "distance", "closeness", "truth" etc., but not "bread", "milk", "run" directly in first-order math and it's straight vocabulary.
+- Other laegna symbols are defined rather psychologically:
+  - Harmony, paradox etc. are *harder to pinpoint in straight math* - I left them out from this number representation, where I tried to show essential dispositions and useful meanings which are very harmonic to complex, linear and exponent realms and if used as constants for such operations and values - with Laegna numeric values, the models play very well.
