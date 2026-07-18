@@ -6,6 +6,12 @@ Nice rendering of 4 colors of Laegna into Laegna kind of Taoist symbol, which I 
 
 ![Laegna Dao](LaegnaDao.png)
 
+# OA
+
+Base-2 number system is based on "O" and "A" digits - it can represent False and True, -1 and 1, or negative and positive where it's hard to say linear or not; it's used in composition of base-4 digit into two or base-16 even three Dens, base-2 numbers, or to create common image of final oppositions, integrating their exact number structures; in all ways we cannot get around it:
+
+![OA](OA.png)
+
 # Diagonal IOAE
 
 In diagonal view:
