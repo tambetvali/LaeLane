@@ -1,3 +1,5 @@
+![SEEME](Graphics/SEEME.png)
+
 # Abstract Theory Folder
 
 Here, I will give some abstract information - what Lanes are, how they work, and what creates the constant unidirectional magic - the kind of structure which does not map linear realms, but travels in log, lin, exp, zero, finite and infinite, but always returns back remaining in it's illusion of linearity.
