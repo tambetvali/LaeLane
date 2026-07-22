@@ -14,3 +14,11 @@ Exp, integral 1, Octave 1:
 In each case, let's just draw some, the whole point of this:
 
 ![Octaves](Graphics/Octaves.png)
+
+<br>
+
+![Octaves 2](Graphics/Octaves2.png)
+
+<br>
+
+![Octaves 3](Graphics/Octaves3.png)
