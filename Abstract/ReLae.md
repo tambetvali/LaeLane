@@ -1,4 +1,4 @@
-
+![ReLaeA](Graphics/ReLaeA.png)
 
 # Laegna ReLae
 
@@ -56,6 +56,10 @@ This is in laegna, fractal continuation of digits to infinity, where down and up
 This type of simplified models are very easy to calculate, and the linguistic extension to math - it might not be precise in every model of yours, but to translate the number properties to something meaningful, at least is a mnemonic act, and also an establishment of symbolic system, which can be literal model measure - but not becoming illogical as you extend it's terms by logical-mathematical rules, frequencies, waves and harmonies.
 
 # Conclusion
+
+Notice the following image uses linguistic patterns of letters, rather than mathematical - for example, "ae" rather than seen as upwards number, is linguistically extended: either you go upwards ae, or reverse-outof ae, and this kind of views are pure linguistic: numbers become entities, entities become linguistically processed - Laegna number is core of it's language, and it's language is poetic-semantical user for the numbers, able to scope them to fantasy, science and life: so the rules get *heavily extended*. This is why the other, SpiReason's pages call you to be poetic and irrational - this conclusion, as well, is about depth of life in Laegna numbers, and needs to be built on semantic association if you use it - towards life, not keeping it as strict, ordered, simple, natural numbers - rather, add arrows, extensions, scopes and see how *same number is different at position and negation* - an easy way to bring it back to math, because in math, -AE is AE counted up from -II, to -EE which is -1 in X or it's limit -0 in continuous mode Z, and so the math backs up this use of Language as it's holistic view to do it - everything synchron to support these uses -, but Laegna Math in this simplistic state won't support it: i.e. declaring positive scope and breaking it with minus, rather *the computer is simply supposed to know what to do with this level of symbolism and expectation for understanding* - A.I. equipped, logical language can yet, easily track this kind of exceptions, for example if your system has 1 work for every day, you finish something in 8h, but one day it's two works, and 16h - AI equipped program with one work per day, such as even coding and indexing them by days, would understand your request to add one exceptional item which made you really tired, sleeping like dead.
+
+![ReLaeB](Graphics/ReLaeB.png)
 
 "Communist behaviour", left wing, socialist, christian - this all wavers at LE line.
 
