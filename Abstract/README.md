@@ -1,3 +1,11 @@
+# The Target is moving
+
+We live in accelerated system of forgiveness and interest - value of money is rising, frame is moving, negative value of crime is getting lower and it's value thus rising in terms of it's interaction. We forgive, accelerate, pay in interest.
+
+
+
+# Abstracts
+
 ![SEEME](Graphics/SEEME.png)
 
 # Abstract Theory Folder
