@@ -1,6 +1,8 @@
 # The Target is moving
 
 We live in accelerated system of forgiveness and interest - value of money is rising, frame is moving, negative value of crime is getting lower and it's value thus rising in terms of it's interaction. We forgive, accelerate, pay in interest.
+- Positive acceleration: frame moves up, for every input we get more.
+- Negative decceleration: frame moves up, for every input we lose less (of what is real).
 
 ![TargetIsMoving](Graphics/TargetIsMoving.png)
 
