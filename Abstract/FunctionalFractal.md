@@ -1,8 +1,8 @@
 I asked an AI to draw Laegna functional fractal.
 
-This is the title; task for the following images was used to create the ambients, lights, reflections:
+This is the title; task for the following images was used to create the ambients, lights, reflections (the initial title was moved to become repo title, and the subtitle was generated here based on same pattern):
 
-![FractalTitle](FractalGraphics/FractalTitle.png)
+![FunctionalFractalTitle](FractalGraphics/FunctionalFractalTitle.png)
 
 <br>
 
