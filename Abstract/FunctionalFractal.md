@@ -13,3 +13,7 @@ These AI renderings of Laegna Functional space can be definitely fake, but they 
 Now the results have got a little better. Notice the instruction projects with aid of Hilbert's math, running it into my geometrized system - AI might be capable of understanding, which views are needed to present such numeric fractal, and how the standard functions actually pass the smoothening - but some Laegna-specific details are left untitled, unset, naturally present in the structure and organization itself: I project Hilbert's spaces to angles, where he projects them to classes and instances, to oversimplify things:
 
 ![FunctionalFractal1](FractalGraphics/FunctionalFractal1.png)
+
+This AI, given the same task, rather wanted to present the actual dynamics of inner and outer scales - This is exponent reduced to it's band value, semantic meaning of "inner" and "outer" present in how "IE" and "OA" scale-variants can be actually present, if they represent the actual wave curvature (a "fractal hologram", as I am used to call this representation method):
+
+![FunctionalFractal2](FractalGraphics/FunctionalFractal2.png)
