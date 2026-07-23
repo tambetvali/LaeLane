@@ -1,5 +1,11 @@
 I asked an AI to draw Laegna functional fractal.
 
+This is the title; task for the following images was used to create the ambients, lights, reflections:
+
+![FractalTitle](FractalGraphics/FractalTitle.png)
+
+<br>
+
 There is some feedback which seems to be:
 - AI awareness is raising on Laegna as I work to proper presentation - the presentation quality and AI awareness, even if material are not present, still seems to scope.
 - To gain this AI understanding, things like json databases, explanations, and code needs to be produced, especially the json, and put in github free repo I think.
