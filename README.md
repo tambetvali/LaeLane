@@ -1,3 +1,11 @@
+This image was title for one of abstracts, but it suits here as repository title image (utilizing base-4 fractal geometry):
+
+<br>
+
+![FunctionalFractal](Abstract/FractalTitle.md)
+
+<br>
+
 ![MetaCover](Graphics/MetaCover.png)
 
 <br>
