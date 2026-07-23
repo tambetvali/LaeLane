@@ -2,7 +2,7 @@ This image was title for one of abstracts, but it suits here as repository title
 
 <br>
 
-![FunctionalFractal](Abstract/FractalTitle.md)
+![FunctionalFractal](Abstract/FractalGraphics/FractalTitle.png)
 
 <br>
 
