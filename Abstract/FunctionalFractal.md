@@ -50,3 +50,9 @@ Cells (left to right) and values (bottom to top) properly enumerated in laegna b
 
 ![FunctionalFractal6](FractalGraphics/FunctionalFractal6.png)
 
+## Functional Fractal 7
+
+Task and generator (Image GPT 2 gives you such nice text rendering) are still same, yet this is the simple, zen, nerve-relaxing version to end this collection of octave, fractal, function imagination of LaeLane geometry-based realms and optimization systems:
+
+![FunctionalFractal7](FractalGraphics/FunctionalFractal7.png)
+
