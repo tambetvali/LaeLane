@@ -9,3 +9,7 @@ There is some feedback which seems to be:
 These AI renderings of Laegna Functional space can be definitely fake, but they are vague interpretations on where to look, based on limited math capability for unknown domains and we need to wait some years, before they give back real Laegna Math by request, because real training cards can be already produced on json for such digit lengths:
 
 ![FunctionalFractal](FractalGraphics/FunctionalFractal.png)
+
+Now the results have got a little better. Notice the instruction projects with aid of Hilbert's math, running it into my geometrized system - AI might be capable of understanding, which views are needed to present such numeric fractal, and how the standard functions actually pass the smoothening - but some Laegna-specific details are left untitled, unset, naturally present in the structure and organization itself: I project Hilbert's spaces to angles, where he projects them to classes and instances, to oversimplify things:
+
+![FunctionalFractal1](FractalGraphics/FunctionalFractal1.png)
